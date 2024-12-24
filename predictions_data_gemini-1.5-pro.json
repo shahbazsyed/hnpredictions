@@ -1,0 +1,341 @@
+{
+    "categorized_predictions": {
+        "Likely": [
+            {
+                "theme": "Regulation and Restriction of Technology",
+                "theme_summary": "Predictions focus on increased restrictions on social media usage by children, potentially including limitations on phone use in schools and stricter signup requirements, but also acknowledge the ineffectiveness of government bans.  There is also the prediction that increased privacy will become a competitive advantage for some companies.",
+                "predictions": [
+                    {
+                        "prediction": "govt type bans are easily circumvented, and basically useless.",
+                        "probability": "0.8",
+                        "justification": "History shows that outright bans on technology or information are often difficult to enforce effectively, especially in the digital age.  VPN usage, alternative platforms, and other circumvention methods often render these bans less effective than intended."
+                    },
+                    {
+                        "prediction": "There are even more restrictions aimed at stopping kids using social media. Restrictions on phone use in schools, who can sign up for social media, etc..",
+                        "probability": "0.7",
+                        "justification": "Multiple countries and regions are already implementing various restrictions on children's social media access and phone usage in schools. The trend suggests an increasing concern about the impact of these technologies on young people, making further restrictions likely."
+                    },
+                    {
+                        "prediction": "no screens in private areas\" - ie no screens in bedrooms and bathrooms. This also has very beneficial outcomes on kids, and seems to be gathering steam.",
+                        "probability": "0.7",
+                        "justification": "Growing awareness of the impact of screen time on sleep and mental health is driving parents to implement restrictions on screen usage in private spaces. This trend is likely to continue gaining traction."
+                    },
+                    {
+                        "prediction": "Selling users\u2019 data goes out of fashion (goog/meta) as new companies use privacy as a competitive advantage to sell ads.",
+                        "probability": "0.7",
+                        "justification": "Growing privacy concerns and regulations are putting pressure on companies that rely on selling user data.  New business models prioritizing privacy are emerging, making this prediction plausible."
+                    }
+                ]
+            },
+            {
+                "theme": "Advancements and Accessibility of Generative AI and LLMs",
+                "theme_summary": "Predictions anticipate substantial improvements in generative AI for music and video, leading to new creative possibilities and wider accessibility. LLMs are also predicted to become more powerful, capable of tackling complex tasks, and more affordable for training.",
+                "predictions": [
+                    {
+                        "prediction": "Generative AI for music will continue to improve substantially. I have a lack of imagination, but maybe something like on demand streaming services, maybe targeted to niche music genres (lo-fi, electronica, elevator/hold/office music)",
+                        "probability": "0.9",
+                        "justification": "AI music generation is already advancing rapidly, and continued improvement is highly likely.  On-demand niche genre streaming driven by AI is a logical extension of current trends and technologically feasible."
+                    },
+                    {
+                        "prediction": "LLMs will continue to improve substantially, being able to solve more and more complex tasks, like the Putnam exam and others. Research will continue to try and integrate LLMs into a toolchain to improve performance",
+                        "probability": "0.9",
+                        "justification": "The trajectory of LLM development strongly suggests continued improvement and ability to tackle complex tasks.  Integration into toolchains is already a focus of research and development, making further progress highly probable."
+                    },
+                    {
+                        "prediction": "Generative AI for video will continue to improve substantially. The best I can come up with is that there will be a breakout indie film or music video that's produced from a skeleton crew relying heavily on generative AI video.",
+                        "probability": "0.8",
+                        "justification": "Similar to music, generative AI for video is rapidly improving. A breakout indie film or music video using AI is a plausible outcome, as the technology becomes more accessible and affordable, lowering the barrier to entry for independent creators."
+                    },
+                    {
+                        "prediction": "we'll see more gamification of AI training as well. I.e your play data becomes training data.",
+                        "probability": "0.8",
+                        "justification": "Using gameplay data for AI training is a practical and efficient approach.  This is already happening in some areas, and broader adoption is likely."
+                    },
+                    {
+                        "prediction": "LLMs and other generative AI tasks will continue to become more and more accessible ($2.5k for a machine able to do fairly advanced training?)",
+                        "probability": "0.7",
+                        "justification": "Increased accessibility of LLMs and generative AI is likely due to ongoing hardware and software advancements. The specific price point is speculative, but the general trend towards affordability is credible."
+                    },
+                    {
+                        "prediction": "Solar and LLM's will bloom.",
+                        "probability": "0.7",
+                        "justification": "Solar energy continues to grow in adoption due to decreasing costs and increasing concerns about climate change.  Large Language Models (LLMs) are also experiencing rapid advancement and broader application across various industries.  While \"bloom\" is subjective, it's likely both technologies will continue to see significant growth and development."
+                    }
+                ]
+            },
+            {
+                "theme": "Digital Identity and Security",
+                "theme_summary": "Predictions cover the development of standardized digital identity verification, the decline of passwords in favor of more secure authentication methods, and ongoing cybersecurity threats, including supply chain compromises and the need for quantum-resistant cryptography.",
+                "predictions": [
+                    {
+                        "prediction": "Google is full steam ahead building the Digital Credentials API, a standard way to have the browser present verifiable identification.",
+                        "probability": 0.9,
+                        "justification": "Google has publicly announced and is actively developing the Digital Credentials API. Evidence can be found in official blog posts and developer documentation. While unforeseen circumstances could halt its progress, the current trajectory suggests a high probability of completion."
+                    },
+                    {
+                        "prediction": "AI in cyber defence and attack",
+                        "probability": 0.9,
+                        "justification": "The use of AI in cybersecurity is already a reality and rapidly evolving on both offensive and defensive fronts.  This trend is highly likely to continue."
+                    },
+                    {
+                        "prediction": "Quantum resistant cryptography",
+                        "probability": 0.8,
+                        "justification": "With the threat of quantum computing breaking current encryption standards, the development and adoption of quantum-resistant cryptography is a high priority for governments and industry. Active research and development in this area suggest a high likelihood of progress."
+                    },
+                    {
+                        "prediction": "More suppliers compromised, another major open source project long con",
+                        "probability": 0.8,
+                        "justification": "Supply chain attacks and compromises of open-source projects have been increasing. Given the complexity of modern software and interconnected systems, this trend is unfortunately likely to persist."
+                    },
+                    {
+                        "prediction": "Death of the password? Passwordless, passkeys, phishing resistant MFA",
+                        "probability": 0.7,
+                        "justification": "Passwordless authentication methods are gaining traction, but adoption faces challenges. While the complete \"death of the password\" may be an exaggeration, significant shifts towards alternatives are probable."
+                    }
+                ]
+            },
+            {
+                "theme": "Societal and Environmental Shifts",
+                "theme_summary": "Predictions touch upon potential changes in LGBT youth identity, increased parental acceptance, the growth of solar energy, extreme weather events, and cloud computing cost concerns.",
+                "predictions": [
+                    {
+                        "prediction": "We've seen massive increase in parental acceptance in our lifetime already.",
+                        "probability": 0.9,
+                        "justification": "Societal attitudes towards LGBT individuals have shifted significantly in recent decades, with increasing acceptance, especially among younger generations.  Polling data and public discourse demonstrate this trend. While not universally true, and likely varies geographically and culturally, a significant increase in parental acceptance is highly probable."
+                    },
+                    {
+                        "prediction": "Cloud egress costs will be heavily scrutinized and competed upon as transferring data no longer becomes a competitive advantage.",
+                        "probability": "0.8",
+                        "justification": "Cloud egress costs are a significant concern for businesses. Increased competition and focus on cost optimization make it highly likely that cloud providers will compete on egress pricing and data transfer solutions."
+                    },
+                    {
+                        "prediction": "The percentage of youth who identify as LGBT will be lower because more of them would be closeted.",
+                        "probability": 0.7,
+                        "justification": "If LGBT youth have reduced access to peer communities and support systems, it's plausible that some might choose to remain closeted, affecting self-reported identification statistics.  Historical and sociological data support the link between social acceptance and public self-identification. However, other factors could influence this trend, making the outcome not absolutely certain."
+                    },
+                    {
+                        "prediction": "Solar energy will account for around 8% (give or take 1%?) of the world's energy usage",
+                        "probability": "0.7",
+                        "justification": "Solar energy is growing rapidly, and various projections have it reaching similar levels. The IEA's Net Zero Emissions by 2050 Scenario projects solar providing around 20% of global electricity by 2030, suggesting 8% of total energy use by 2025 is plausible considering other energy sources.  However, unforeseen technological or political hurdles could slow down adoption."
+                    },
+                    {
+                        "prediction": "Hottest weather in recorded history. Extreme weather in many places not seen before.",
+                        "probability": 0.7,
+                        "justification": "Given the ongoing trend of global warming and the recent El Ni\u00f1o event, it is highly probable that new temperature records will be set.  The increasing frequency and intensity of extreme weather events are also consistent with climate change projections. However, \"not seen before\" is a high bar, some weather events might be similar to past ones albeit more intense."
+                    }
+                ]
+            },
+            {
+                "theme": "AI Impact on Specific Industries",
+                "theme_summary": "Predictions relate to AI's influence on search engine optimization (SEO) and its potential to revolutionize engine design through simulations and CAD software. Also mentions air sampling technology becoming cheaper, and increased automation.",
+                "predictions": [
+                    {
+                        "prediction": "Top search engine results completely inundated by LLM text, we none the wiser. SEO solved. Search engine switches to new algorithm based on LLM.",
+                        "probability": 0.9,
+                        "justification": "LLM-generated text is already prevalent online, and search engines are constantly adapting their algorithms. The prediction that LLM-generated text will dominate search results is highly likely, as is the continued evolution of search engine algorithms. However, whether SEO will be \"solved\" is debatable, as optimizing for LLM-generated content might become the new SEO."
+                    },
+                    {
+                        "prediction": "Doing more with less: automation and consolidation",
+                        "probability": 0.9,
+                        "justification": "Automation and consolidation are constant drivers in the business and technology worlds.  Economic pressures and efficiency gains make this prediction highly probable."
+                    },
+                    {
+                        "prediction": "AI with tool use that has access to physics simulator and CAD software will automatically advances efficient engine design.",
+                        "probability": 0.7,
+                        "justification": "AI tools are already being used in engineering design and optimization.  Giving AI access to physics simulators and CAD software can potentially lead to significant advancements in engine design. However, \"automatically advances\" suggests a fully autonomous process, which is less likely in the near term. Human oversight and validation will likely remain crucial."
+                    },
+                    {
+                        "prediction": "cheap version [of air sampling technology] will be available",
+                        "probability": 0.7,
+                        "justification": "The underlying technology for air sampling and spectral analysis already exists.  The prediction hinges on cost reduction through mass production.  While the specific application to \"robot noses\" is speculative, the general trend of technology becoming cheaper over time is well-established.  The lack of a widespread \"robot industry\" currently tempers the probability somewhat."
+                    }
+                ]
+            }
+        ],
+        "Maybe": [
+            {
+                "theme": "Technological Advancements and Their Impact",
+                "theme_summary": "Predictions related to advancements in AI, robotics, and personal devices, including their potential benefits and drawbacks.",
+                "predictions": [
+                    {
+                        "prediction": "A combo of aibo/roomba/ring like device that goes about or rolls around your house and does things for you\u2026 kinda real life flubber.",
+                        "probability": "0.6",
+                        "justification": "Robotics and home automation are continuously developing.  A combined device with various functionalities is plausible given current technological trends."
+                    },
+                    {
+                        "prediction": "Finally games actually have AI that doesn\u2019t suck - a new class of AI games that would challenge and delight humans like never before.",
+                        "probability": "0.6",
+                        "justification": "AI in games is steadily improving. While a transformative \"new class\" of games is possible, the prediction lacks specific examples.  The claim of \"challenging and delighting humans like never before\" is hyperbolic and difficult to quantify."
+                    },
+                    {
+                        "prediction": "robots will want a digital nose",
+                        "probability": 0.5,
+                        "justification": "This prediction is more speculative. While some applications like detecting smoke or spoiled food are plausible, it's unclear how widespread the demand for such a feature will be. The development of a \"robot industry\" is a prerequisite, making this prediction dependent on other technological and market trends."
+                    },
+                    {
+                        "prediction": "The cost of robots and other robotics will drop substantially, providing a reasonable bipedal option at $8k",
+                        "probability": "0.4",
+                        "justification": "While robotics costs are likely to decrease, a sophisticated bipedal robot for $8k by 2025 is less certain.  This depends on various factors including battery technology, materials science, and mass production scalability."
+                    },
+                    {
+                        "prediction": "Apple or someone like Apple will take advantage of cratering storage/compute costs by moving things off cloud to a locally owned \u2018box\u2019 that pairs with a new dumb-client/thin phone (backups, massive storage, running some compute on this box, sharing/storing \u2018family\u2019 stuff, streaming games or movies etc) also accessible via a reverse proxy (vpn) from anywhere.",
+                        "probability": "0.4",
+                        "justification": "While decreasing storage and compute costs make local solutions more appealing, the convenience and scalability of cloud services are still major advantages.  Predicting a widespread shift to local \"boxes\" is uncertain, though niche applications are possible."
+                    },
+                    {
+                        "prediction": "LLMs (for non-coding tasks) will likely fizzle out as expensive talking fidget spinners and not the world saviors that the companies behind them envision them to be. AI will go back to being fun and exciting again and not the delight of both Wall Street and the \u2018shoeshine boy\u2019.",
+                        "probability": "0.3",
+                        "justification": "While the hype around LLMs may be inflated, predicting they'll entirely \"fizzle out\" is unlikely.  The long-term impact of LLMs is still unfolding, and there are numerous potential applications beyond current uses.  The comparison to \"fidget spinners\" is hyperbolic and dismissive of the underlying technology."
+                    },
+                    {
+                        "prediction": "Cheap AI nose sniffs out many common diseases. Automatic data analysis of Gas Chromatography and spectroscopy readings on patients' VOC(volatile organic compounds) produces fast and cheap diagnosis.",
+                        "probability": 0.3,
+                        "justification": "Using AI to analyze VOCs for disease diagnosis is a promising area of research. However, developing a reliable and \"cheap\" diagnostic tool that can detect \"many common diseases\" requires further research and validation.  The probability of widespread adoption in the near future is moderate to low."
+                    }
+                ]
+            },
+            {
+                "theme": "Social and Societal Changes",
+                "theme_summary": "Predictions about shifts in social dynamics, particularly regarding technology adoption among children and economic challenges.",
+                "predictions": [
+                    {
+                        "prediction": "parent-driven approach I'm hearing about more and more. Parents in a school get together and agree on smartphone accessibility. For example \"no smart phone till high school, dumb Nokia for comms if required\". This is hyper-local but works well because there's no peer pressure- nobody has one etc.",
+                        "probability": "0.6",
+                        "justification": "Grassroots parental movements concerning children's technology use are increasing.  While effectiveness varies depending on community buy-in, the localized nature makes these initiatives feasible and potentially impactful.  The absence of peer pressure in these controlled environments can contribute to their success."
+                    },
+                    {
+                        "prediction": "Unsustainable public debt. $50 trillion in debt maturity must be rolled over mid 2025. Something must give",
+                        "probability": "0.6",
+                        "justification": "Large amounts of public debt maturing can pose challenges for governments.  The prediction that \"something must give\" is somewhat vague. It could refer to anything from policy adjustments, increased taxation, to inflationary pressures.  While the prediction lacks specificity, the underlying concern about large debt rollovers is valid."
+                    },
+                    {
+                        "prediction": "it'll eventually prove to be a wild success, with significant benefit to kids",
+                        "probability": "0.3",
+                        "justification": "While reducing social media access might have some benefits for kids (e.g., improved mental health, better sleep), characterizing it as a \"wild success\" is unlikely.  The impact is complex and depends on various factors, and potential negative consequences (e.g., reduced social connection, hindered digital literacy development) need to be considered.  Evidence of long-term positive impact is still limited."
+                    },
+                    {
+                        "prediction": "We'll see the world's first trillionaire",
+                        "probability": "0.3",
+                        "justification": "While wealth concentration is increasing, a trillionaire in the near future is unlikely. Current wealthiest individuals are still far from this mark, and while exponential growth is possible, significant economic and potentially political shifts would be required for such an accumulation of wealth in the next few years."
+                    }
+                ]
+            },
+            {
+                "theme": "Government and Internet Regulation",
+                "theme_summary": "Predictions concerning increased government oversight and control of the internet.",
+                "predictions": [
+                    {
+                        "prediction": "The Digital Credentials API will pave the way for the most ghastly intrusion of governments onto the internet.",
+                        "probability": 0.6,
+                        "justification": "While the API itself provides a technical framework, its potential for government intrusion depends on future policy and implementation.  There is a moderate risk that governments could leverage this technology for surveillance or control, but it's not guaranteed. The level of intrusion will depend on various factors like data privacy regulations and user adoption."
+                    },
+                    {
+                        "prediction": "You\u2019ll be asked to log in into a government-run account, which will pinky promise not to store who accessed what.",
+                        "probability": 0.3,
+                        "justification": "This prediction combines a plausible technical aspect (logging into a government-run account) with a cynical view of government trustworthiness (\"pinky promise\").  While government-backed digital identities are becoming more common, explicit promises not to track access are unlikely and often unreliable.  The user's skepticism reflects a valid concern about government surveillance, but it's presented sarcastically, lowering the probability."
+                    }
+                ]
+            },
+            {
+                "theme": "Big Tech and Leadership Changes",
+                "theme_summary": "Predictions about the future of major tech companies and potential leadership transitions.",
+                "predictions": [
+                    {
+                        "prediction": "Twitter and Facebook will still be around, Bluesky will be no more, Mastodon will continue to be niche",
+                        "probability": "0.6",
+                        "justification": "Twitter and Facebook's continued existence is probable due to their established user bases and network effects.  Bluesky's future is uncertain, while Mastodon's niche status seems likely to persist given its decentralized nature and current growth trajectory."
+                    },
+                    {
+                        "prediction": "One or a few of the faangmanga-ish leaders will retire (or forced to by the board) and the new leader will be from within (likely Tim Cook for age reasons but could equally likely be Sundar Pichai for non-age reasons)",
+                        "probability": "0.5",
+                        "justification": "Leadership changes are common in large companies.  While age can be a factor, there are numerous other reasons for leadership transitions.  Predicting specific retirements or departures is speculative."
+                    }
+                ]
+            },
+            {
+                "theme": "AI and Scientific Breakthroughs",
+                "theme_summary": "Predictions about AI solving complex problems, including mathematical challenges and ecological issues.",
+                "predictions": [
+                    {
+                        "prediction": "Million dollar prompt run on million dollar math prize. Millennium Prize Problems",
+                        "probability": 0.4,
+                        "justification": "While AI can contribute to solving complex mathematical problems, the Millennium Prize Problems are notoriously difficult.  A \"million dollar prompt\" suggests a significant breakthrough, but the probability of solving one of these problems within the next year using AI is relatively low, although not impossible."
+                    },
+                    {
+                        "prediction": "AI sucessfully held back invasive species encrochment with lessons from AI war machines",
+                        "probability": 0.3,
+                        "justification": "Using AI for environmental management, including invasive species control, is a developing field.  Drawing parallels with \"AI war machines\" is speculative, and the effectiveness of such an approach remains uncertain.  The probability of significant success in the near term is moderate to low."
+                    }
+                ]
+            },
+            {
+                "theme": "Personal Projects",
+                "theme_summary": "Predictions related to personal projects and hobbies.",
+                "predictions": [
+                    {
+                        "prediction": "I will finally finish making that bird feeder camera",
+                        "probability": 0.6,
+                        "justification": "This is a personal project with stated intent and acquired materials. While there's a reasonable chance of completion, unforeseen difficulties or changes in motivation could derail the project. The probability is moderately high but not certain."
+                    }
+                ]
+            }
+        ],
+        "Unlikely": [
+            {
+                "theme": "Increased Regulation and Control of Online Spaces",
+                "theme_summary": "Predictions focus on the expansion of online verification and control measures, potentially through government-backed single sign-on (SSO) systems, mirroring existing restrictions like age verification for adult content but with broader negative implications.",
+                "predictions": [
+                    {
+                        "prediction": "the same technologies and restrictions will be applied in various ways to adults (similar to the porn verification laws), which will have significantly more negative effects.",
+                        "probability": "0.2",
+                        "justification": "While some limited forms of online access restrictions exist for adults (e.g., age verification for certain content), widespread application of social media restrictions similar to those for children is unlikely in democratic societies due to freedom of speech and privacy concerns. The potential backlash and legal challenges would be significant."
+                    },
+                    {
+                        "prediction": "Government backed SSO is probably how this ends up. I suspect we get to it because it also solves the election influencing issues that western democracies are seeing",
+                        "probability": "0.1",
+                        "justification": "While governments might explore various identity verification methods for online services, a government-backed single sign-on (SSO) for age verification faces substantial privacy and security concerns, as well as potential for abuse.  The likelihood of widespread adoption in Western democracies, considering the potential backlash and resistance, remains low."
+                    }
+                ]
+            },
+            {
+                "theme": "Bitcoin Price Predictions",
+                "theme_summary": "Predictions center around the future value of Bitcoin, with optimistic forecasts of it reaching and stabilizing around $200,000, potentially driven by a strong bull market.",
+                "predictions": [
+                    {
+                        "prediction": "Bitcoin is on a trajectory to reach 200k and it will if we get a strong bull season.",
+                        "probability": "0.2",
+                        "justification": "Bitcoin reaching $200k is dependent on a \"strong bull season.\"  While Bitcoin has seen significant price increases in the past, predicting future market behavior is notoriously difficult.  Market sentiment, regulatory changes, and macroeconomic factors all play a role, making a specific price target highly uncertain."
+                    },
+                    {
+                        "prediction": "Bitcoin will reach $200k+, and remain largely stable around that price, at the end of 2025",
+                        "probability": "0.1",
+                        "justification": "Bitcoin reaching $200k by the end of 2025 and remaining stable there is highly speculative. Bitcoin is known for its volatility, and predicting such a substantial and stable increase within this timeframe is unlikely based on historical trends and current market conditions.  While past performance doesn't guarantee future results, the required growth within two years is improbable."
+                    }
+                ]
+            },
+            {
+                "theme": "Cryptocurrency's Role in Finance",
+                "theme_summary": "A broad prediction about the transformative potential of cryptocurrency as the future of money and finance.",
+                "predictions": [
+                    {
+                        "prediction": "Crypto is the future of money and finance.",
+                        "probability": "0.2",
+                        "justification": "While cryptocurrencies have gained some adoption, significant hurdles remain for them to become the *future* of money and finance.  Regulatory uncertainty, scalability issues, volatility, and competition from central bank digital currencies (CBDCs) make this prediction unlikely in the short to medium term."
+                    }
+                ]
+            },
+            {
+                "theme": "Advancements in Renewable Energy and Resource Extraction",
+                "theme_summary": "Predictions anticipate that the cost of renewable energy, specifically in remote areas, will decrease significantly, enabling cost-effective extraction of resources like oxygen from air or hydrogen from water, potentially creating new commodity markets.",
+                "predictions": [
+                    {
+                        "prediction": "Cost of renewable electricity in remote area becomes cheap enough to pull oxygen from air or electrosis from water to be sold as commodity. Or other processes to package solar energy for trade.",
+                        "probability": 0.1,
+                        "justification": "While renewable energy costs are decreasing, the cost of extracting oxygen from air or producing hydrogen from water through electrolysis remains relatively high.  Achieving price parity with existing commodity markets in remote areas within the near future is unlikely."
+                    }
+                ]
+            }
+        ]
+    },
+    "model": "gemini-1.5-pro"
+}

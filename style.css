@@ -1,0 +1,301 @@
+/* Font imports */
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-mono@latest/latin-500-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* General styles */
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Title styles */
+.hero .title {
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Tab styles */
+.tabs {
+  margin-bottom: 2rem !important;
+}
+
+.tabs li.is-active a {
+  border-bottom-color: #485fc7;
+  color: #485fc7;
+}
+
+/* Card styles */
+.card {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  border-radius: 8px 8px 0 0;
+  background-color: #fafafa;
+}
+
+.card-header-title {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  text-align: left;
+  flex: 1;
+  font-weight: 400 !important;
+  display: flex;
+  align-items: center;
+}
+
+.card-header-icon {
+  transition: transform 0.2s ease;
+}
+
+.card-header-icon .fa-angle-down {
+  transition: transform 0.2s ease;
+}
+
+.card-header-icon .fa-angle-down.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+/* Content styles */
+.content {
+  padding: 1.5rem;
+}
+
+/* Notification styles */
+.notification {
+  border-radius: 8px;
+}
+
+.notification .icon-text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.notification .icon {
+  margin-right: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Box styles */
+.box {
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.box:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tag styles */
+.tag {
+  border-radius: 4px;
+}
+
+/* Icon text alignment */
+.icon-text {
+  align-items: flex-start !important;
+}
+
+.icon-text .icon {
+  margin-top: 0.2rem;
+  margin-right: 0.75rem;
+}
+
+/* Loading spinner */
+.fa-spinner {
+  color: #485fc7;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .card-header-title {
+    font-size: 1rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .section {
+    padding: 1.5rem;
+  }
+}
+
+/* Container styles */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 0px;
+  background-color: white;
+}
+
+/* Prediction box styles */
+.prediction-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  border: 1px solid #eee;
+}
+
+.prediction-box:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.prediction-content {
+  padding: 1rem;
+}
+
+.prediction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.prediction-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.prediction-icon {
+  color: #485fc7;
+  font-size: 1em;
+}
+
+.prediction-probability {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.prediction-probability.is-success {
+  background-color: #48c78e20;
+  color: #257953;
+}
+
+.prediction-probability.is-info {
+  background-color: #3e8ed0;
+  color: #fff;
+}
+
+.prediction-probability.is-danger {
+  background-color: #f1466820;
+  color: #cc0f35;
+}
+
+.prediction-probability .icon {
+  margin-right: 0.5rem;
+}
+
+.prediction-justification {
+  font-size: 0.9rem;
+  color: #666;
+  padding-left: 1rem;
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+
+.prediction-justification.is-success {
+  border-left-color: #48c78e;
+}
+
+.prediction-justification.is-info {
+  border-left-color: #3e8ed0;
+}
+
+.prediction-justification.is-danger {
+  border-left-color: #f14668;
+}
+
+/* Summary styles */
+.summary-header {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.summary-content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Theme summary styles */
+.theme-summary {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Category headers */
+.section .title.is-4 {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.section .title.is-4 .icon {
+  margin-right: 0.75rem;
+  color: #485fc7;
+}
+
+/* Prediction count styles */
+.prediction-count {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 400;
+  background: #f5f5f5;
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+}
+
+/* Theme card styles */
+.theme-card {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  transition: all 0.2s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.theme-card.is-success {
+  border-color: #48c78e;
+}
+
+.theme-card.is-info {
+  border-color: #3e8ed0;
+}
+
+.theme-card.is-danger {
+  border-color: #f14668;
+}

@@ -5,7 +5,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-mono@latest/latin-500-normal.woff2) format('woff2');
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* General styles */
@@ -41,11 +41,11 @@ body {
 .card {
   transition: all 0.2s ease;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-header {
@@ -102,7 +102,7 @@ body {
 }
 
 .box:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Tag styles */
@@ -130,11 +130,11 @@ body {
   .card-header-title {
     font-size: 1rem;
   }
-  
+
   .content {
     padding: 1rem;
   }
-  
+
   .section {
     padding: 1.5rem;
   }
@@ -154,13 +154,13 @@ body {
 .prediction-box {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease;
   border: 1px solid #eee;
 }
 
 .prediction-box:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .prediction-content {
@@ -193,9 +193,22 @@ body {
   white-space: nowrap;
 }
 
+.prediction-box.is-success {
+  border-color: #48c78e;
+}
+
+.prediction-box.is-info {
+  border-color: #3e8ed0;
+}
+
+.prediction-box.is-danger {
+  border-color: #cc0f35;
+}
+
+
 .prediction-probability.is-success {
-  background-color: #48c78e20;
-  color: #257953;
+  background-color: #48c78e;
+  color: #fff;
 }
 
 .prediction-probability.is-info {
@@ -213,11 +226,7 @@ body {
 }
 
 .prediction-justification {
-  font-size: 0.9rem;
   color: #666;
-  padding-left: 1rem;
-  border-left-width: 3px;
-  border-left-style: solid;
 }
 
 .prediction-justification.is-success {
@@ -262,7 +271,7 @@ body {
 
 .section .title.is-4 .icon {
   margin-right: 0.75rem;
-  color: #485fc7;
+  color: #666;
 }
 
 /* Prediction count styles */
@@ -285,7 +294,7 @@ body {
 
 .theme-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .theme-card.is-success {
@@ -298,4 +307,23 @@ body {
 
 .theme-card.is-danger {
   border-color: #f14668;
+}
+
+.theme-list-item a {
+  border-radius: 4px !important;
+  padding: 0.5em 1.1em !important;
+  transition: all 0.2s ease;
+  margin: 0 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.theme-list-item a:hover,
+.theme-list-item.is-active a {
+  background-color: #edf2fa !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu-list a {
+  padding-left: 1.5em !important;
 }

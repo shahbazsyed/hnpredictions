@@ -11,48 +11,84 @@ $(window).on('load', () => {
   const $tabContent = $('#tab-content');
 
   // Function to format model name for display
-  function formatModelName(filename) {
-    // Remove 'predictions_data_' prefix and '.json' suffix
-    const modelName = filename.substring(16, filename.length - 5);
+  function formatModelName(modelName) {
     // Split by hyphen and capitalize each part
-    return modelName.split('-').map(part => 
+    return modelName.split('_').map(part =>
       part.charAt(0).toUpperCase() + part.slice(1)
     ).join(' ');
   }
 
-  // Define prediction files directly
-  const files = ["predictions_data_gemini-1.5-pro.json"];
-  console.log("Files to load:", files);
-  
-  let firstTab = null;
-  files.forEach((file, index) => {
-    console.log("Creating tab for file:", file);
-    const $tab = $('<li>').append(
-      $('<a>').html(`
-        <span class="icon is-small"><i class="fas fa-robot"></i></span>
-        <span>${formatModelName(file)}</span>
-      `)
-    ).on('click', () => loadData(file, $tab, index));
-    
-    $tabContainer.append($tab);
-    if (index === 0) {
-      firstTab = $tab;
-    }
+  // Function to fetch all files from the output directory and filter for .json files
+  function fetchFilesFromDirectory() {
+    // Since we can't do real globbing with client-side JavaScript we will use a simulated list from the output directory
+    const files = [
+      "outputs/predictions_data_gemini-1.5-pro.json",
+    ];
+    return files.filter(file => file.endsWith(".json"));
+  }
+
+  // Function to fetch data and create tab
+  function createTabFromFile(file, index) {
+    fetch(file)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.text();
+      })
+      .then(text => {
+        try {
+          const data = JSON.parse(text);
+          const modelName = data.model;
+
+          console.log("Creating tab for file:", file, "Model Name:", modelName);
+
+          const $tab = $('<li>').append(
+            $('<a>').html(`
+                          <span class="icon is-small"><i class="fas fa-robot"></i></span>
+                          <span>${formatModelName(modelName)}</span>
+                        `)
+          ).on('click', () => loadData(file, $tab, index));
+
+          $tabContainer.append($tab);
+          if (index === 0) {
+            firstTab = $tab;
+          }
+        } catch (e) {
+          console.error(`Error parsing JSON for file: ${file}`, e);
+        }
+      })
+      .catch(error => {
+        console.error(`Error fetching file: ${file}`, error);
+      });
+  }
+
+  // Get files from output directory
+  const filesFromOutput = fetchFilesFromDirectory();
+  console.log("Files found:", filesFromOutput)
+
+  // Create tabs dynamically
+  filesFromOutput.forEach((file, index) => {
+    createTabFromFile(file, index);
   });
 
+
   // Load first tab by default
-  if (firstTab) {
-    console.log("Loading first tab with file:", files[0]);
-    loadData(files[0], firstTab, 0);
-  } else {
-    console.error("No first tab found!");
-  }
+  setTimeout(() => {
+    if (firstTab) {
+      console.log("Loading first tab with file:", `/outputs/${filesFromOutput[0]}`);
+      loadData(`/outputs/${filesFromOutput[0]}`, firstTab, 0);
+    } else {
+      console.error("No first tab found!");
+    }
+  }, 100);
+
 
   function loadData(file, $tab, tabIndex) {
     console.log("=== Starting to load data ===");
     console.log("Loading file:", file);
     console.log("Tab index:", tabIndex);
-    
+
     // Show loading state
     $tabContent.html(`
       <div class="has-text-centered p-6">
@@ -88,15 +124,15 @@ $(window).on('load', () => {
         console.log("=== Processing parsed data ===");
         console.log("Full data object:", data);
         console.log("Keys in data:", Object.keys(data));
-        
+
         if (!data) {
           console.error("No data available");
           $tabContent.html('<div class="notification is-danger">Error loading data</div>');
           return;
         }
 
-        if (!data.categorized_predictions) {
-          console.error("No categorized_predictions found in data");
+        if (!data.themes) {
+          console.error("No themes found in data");
           console.log("Available data structure:", JSON.stringify(data, null, 2));
           $tabContent.html('<div class="notification is-danger">Invalid data format: missing categorized_predictions</div>');
           return;
@@ -107,138 +143,69 @@ $(window).on('load', () => {
         $tab.addClass('is-active');
         $tabContent.empty();
 
-        const categorizedPredictions = data.categorized_predictions;
+        const themes = data.themes;
         const model = data.model || formatModelName(file);
 
         console.log("Model name:", model);
-        console.log("Categories found:", Object.keys(categorizedPredictions));
+        console.log("Themes found:", themes);
 
-        // Add model info section
-        $tabContent.append(`
-          <div class="box mb-5">
-            <h2 class="title is-4">
-              <span class="icon-text">
-                <span class="icon"><i class="fas fa-robot"></i></span>
-                <span>Model: ${model}</span>
-              </span>
-            </h2>
-          </div>
-        `);
+        // Add model info section and legend
+        const $tabContentContainer = $('<div class="columns is-variable is-1 is-gapless" style="min-height: 500px"></div>').appendTo($tabContent);
+        const $sidebar = $('<aside class="column is-one-quarter menu" style="overflow-y: auto; height: 500px"></aside>').appendTo($tabContentContainer);
+        const $mainContent = $('<div class="column is-three-quarters prediction-column" style="overflow-y: auto; height: 500px"></div>').appendTo($tabContentContainer);
 
-        // Create the category sections
-        for (const [category, clusters] of Object.entries(categorizedPredictions)) {
-          console.log(`Processing category: ${category}, number of clusters: ${clusters?.length}`);
-          const $categorySection = $('<section>').addClass('section pt-4');
-          const $categoryContainer = $('<div>').addClass('container');
-          
-          // Add category header with appropriate color
-          const categoryColor = {
-            'Likely': 'is-success',
-            'Maybe': 'is-info',
-            'Unlikely': 'is-danger'
-          }[category] || 'is-info';
-          
-          $categoryContainer.append(`
-            <h2 class="title is-4 mb-5">
-              <span class="icon-text">
-                  <i class="fas ${category === 'Likely' ? 'fa-check-circle has-text-success' : 
-                                category === 'Maybe' ? 'fa-question-circle has-text-info' : 
-                                'fa-times-circle has-text-danger'}"></i> &nbsp;
-                <span class="${category === 'Likely' ? 'has-text-success' : 
-                             category === 'Maybe' ? 'has-text-info' : 
-                             'has-text-danger'}">${category} Predictions</span>
-              </span>
-            </h2>
-          `);
 
-          if (clusters && clusters.length > 0) {
-            clusters.forEach(cluster => {
-              const $themeCard = $('<div>')
-                .addClass(`card mb-4 theme-card ${categoryColor}`)
-                .appendTo($categoryContainer);
-              const $cardHeader = $('<header>').addClass('card-header');
-              const $cardContent = $('<div>').addClass('card-content is-hidden');
-
-              // Add theme header
-              $cardHeader.html(`
-                <div class="card-header-title">
-                  ${cluster.theme}
-                  <span class="prediction-count ml-2">${cluster.predictions.length} predictions</span>
-                </div>
-                <button class="card-header-icon">
-                  <span class="icon">
-                    <i class="fas fa-angle-down"></i>
-                  </span>
-                </button>
-              `);
-
-              // Add theme summary and predictions
-              const $predictionsContent = $('<div>').addClass('content');
-              if (cluster.theme_summary) {
-                $predictionsContent.append(`
-                  <div class="notification ${categoryColor} is-light mb-4">
-                    <div class="summary-header">TL;DR:</div>
-                    <div class="summary-content">${cluster.theme_summary}</div>
+        $sidebar.append(`
+                 <div class="box mb-5">
+                    <h2 class="title is-4">
+                      <span class="icon-text">
+                        <span class="icon"><i class="fas fa-robot"></i></span>
+                        <span>Model: ${model}</span>
+                      </span>
+                    </h2>
+                  <div class="legend flex is-flex-wrap-wrap is-justify-content-space-between">
+                    <span class="legend-item"><i class="fas fa-square has-text-success mr-2"></i>Likely</span>
+                    <span class="legend-item"><i class="fas fa-square has-text-info ml-2 mr-2"></i>Maybe</span>
+                    <span class="legend-item"><i class="fas fa-square has-text-danger ml-2 mr-2"></i>Unlikely</span>
                   </div>
+                 </div>
                 `);
-              }
 
-              // Sort and add predictions
-              cluster.predictions
-                .sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability))
-                .forEach(prediction => {
-                  const probability = parseFloat(prediction.probability);
-                  const confidenceClass = probability >= 0.7 ? 'is-success' : 
-                                        probability >= 0.3 ? 'is-info' : 
-                                        'is-danger';
-                  
-                  $predictionsContent.append(`
-                    <div class="prediction-box mb-4">
-                      <div class="prediction-content">
-                        <div class="prediction-header">
-                          <div class="prediction-text">
-                            <span class="icon-text">
-                              <span class="has-text-weight-medium"><i class="prediction-icon fas fa-user"></i> ${prediction.prediction}</span>
-                            </span>
-                          </div>
-                          <div class="prediction-probability ${confidenceClass}">
-                            <span class="icon"><i class="fas fa-chart-line"></i></span>
-                            <span>${(probability * 100).toFixed(0)}%</span>
-                          </div>
-                        </div>
-                        <div class="prediction-justification ${confidenceClass}">
-                          <span class="icon-text">
-                            <span><i class="fas fa-robot"></i> &nbsp;${prediction.justification}</span>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  `);
-                });
+        // sort themes by prediction count, "other" should be last
+        const sortedThemes = [...themes].sort((a, b) => {
+          if (a.theme === "Other") return 1;
+          if (b.theme === "Other") return -1;
+          const countA = a.predictions ? a.predictions.length : 0;
+          const countB = b.predictions ? b.predictions.length : 0;
+          return countB - countA;
+        });
 
-              $cardContent.append($predictionsContent);
-              $themeCard.append($cardHeader, $cardContent);
-              
-              // Add click handler
-              $cardHeader.on('click', () => {
-                $cardContent.toggleClass('is-hidden');
-                $cardHeader.find('.fa-angle-down').toggleClass('fa-rotate-180');
-              });
-            });
-          } else {
-            $categoryContainer.append(`
-              <div class="notification is-light">
-                <span class="icon-text">
-                  <span class="icon"><i class="fas fa-info-circle"></i></span>
-                  <span>No predictions in this category.</span>
-                </span>
-              </div>
-            `);
+        const $themeMenu = $('<ul class="menu-list"></ul>').appendTo($sidebar);
+
+        // Create the theme navigation
+        sortedThemes.forEach(theme => {
+          let predictionCount = 0;
+          if (theme.predictions && Array.isArray(theme.predictions)) {
+            predictionCount = theme.predictions.length;
           }
-          
-          $categorySection.append($categoryContainer);
-          $tabContent.append($categorySection);
+          const $themeItem = $('<li class="theme-list-item"></li>').append('<a class="theme-link" href="#">' + theme.theme + ' <span class="tag is-light is-small ml-2">' + predictionCount + ' Predictions</span></a>')
+            .on('click', function (event) {
+              event.preventDefault();
+              console.log(`Loading predictions for theme: ${theme.theme}`);
+              $themeMenu.find('li').removeClass('is-active');
+              $(this).parent('li').addClass('is-active');
+
+              $mainContent.animate({ scrollTop: 0 }, 200, () => {
+                loadThemePredictions(theme, $mainContent)
+              });
+            }).appendTo($themeMenu);
+        });
+
+        if (sortedThemes.length > 0) {
+          loadThemePredictions(sortedThemes[0], $mainContent);
+          $themeMenu.find('li').first().addClass("is-active")
         }
+
       })
       .catch(error => {
         console.error('Error in data loading process:', error);
@@ -252,5 +219,66 @@ $(window).on('load', () => {
           </div>
         `);
       });
+  }
+
+
+  function loadThemePredictions(theme, $targetContent) {
+    $targetContent.empty();
+    console.log("Loading Theme:", theme)
+    const $themeContainer = $('<div class="container"></div>');
+    if (theme.summary) {
+      $themeContainer.append(`
+                    <h2 class="title is-4 mb-5">
+                        <span class="icon-text">
+                            <span>${theme.theme}</span>
+                        </span>
+                     </h2>
+                            <div class="notification is-light mb-4">
+                                  <div class="summary-content"><strong>Summary:</strong>  ${theme.summary}</div>
+                            </div>
+                            `);
+    }
+    if (theme.predictions && theme.predictions.length > 0) {
+      theme.predictions.forEach(prediction => {
+        const probability = parseFloat(prediction.probability);
+        const confidenceClass = probability >= 0.7 ? 'is-success' :
+          probability >= 0.3 ? 'is-info' :
+            'is-danger';
+
+        const $predictionBox = $('<div>')
+          .addClass(`prediction-box mb-4 ${confidenceClass}`) // Added confidenceClass here
+          .appendTo($themeContainer);
+        $predictionBox.html(`
+                   <div class="prediction-content">
+                    <div class="prediction-header">
+                     <div class="prediction-text">
+                       <span class="icon-text">
+                         <span class="has-text-weight-medium"><i class="prediction-icon fas fa-user"></i>  ${prediction.prediction}</span>
+                        </span>
+                      </div>
+                      <div class="prediction-probability ${confidenceClass}">
+                         <span class="icon"><i class="fas fa-chart-line"></i></span>
+                          <span>${(probability * 100).toFixed(0)}%</span>
+                         </div>
+                        </div>
+                         <div class="prediction-justification ${confidenceClass}">
+                         <span class="icon-text">
+                           <span><i class="fas fa-robot"></i>  ${prediction.justification}</span>
+                          </span>
+                        </div>
+                     </div>
+               `);
+      });
+    } else {
+      $themeContainer.append(`
+                     <div class="notification is-light">
+                       <span class="icon-text">
+                        <span class="icon"><i class="fas fa-info-circle"></i></span>
+                        <span>No predictions found in this theme.</span>
+                       </span>
+                     </div>
+                   `);
+    }
+    $targetContent.append($themeContainer);
   }
 });

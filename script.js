@@ -23,6 +23,9 @@ $(window).on('load', () => {
     // Since we can't do real globbing with client-side JavaScript we will use a simulated list from the output directory
     const files = [
       "outputs/predictions_data_gemini-1.5-pro.json",
+      "outputs/predictions_data_claude-3.5-sonnet-20241022.json",
+      "outputs/predictions_data_gpt-4-turbo-preview.json",
+      "outputs/predictions_data_gpt-4o.json",
     ];
     return files.filter(file => file.endsWith(".json"));
   }
@@ -66,6 +69,9 @@ $(window).on('load', () => {
   // Get files from output directory
   const filesFromOutput = fetchFilesFromDirectory();
   console.log("Files found:", filesFromOutput)
+
+  // Add tab-content class to the content container
+  $tabContent.addClass('tab-content');
 
   // Create tabs dynamically
   filesFromOutput.forEach((file, index) => {
@@ -146,39 +152,46 @@ $(window).on('load', () => {
         const themes = data.themes;
         const model = data.model || formatModelName(file);
 
-        console.log("Model name:", model);
-        console.log("Themes found:", themes);
+        // Combine all "Other" themes into one
+        const otherThemes = themes.filter(theme => theme.theme === "Other");
+        const nonOtherThemes = themes.filter(theme => theme.theme !== "Other");
 
-        // Add model info section and legend
-        const $tabContentContainer = $('<div class="columns is-variable is-1 is-gapless" style="min-height: 500px"></div>').appendTo($tabContent);
-        const $sidebar = $('<aside class="column is-one-quarter menu" style="overflow-y: auto; height: 500px"></aside>').appendTo($tabContentContainer);
-        const $mainContent = $('<div class="column is-three-quarters prediction-column" style="overflow-y: auto; height: 500px"></div>').appendTo($tabContentContainer);
+        if (otherThemes.length > 0) {
+          const combinedOther = {
+            theme: "Other",
+            summary: "Other miscellaneous predictions that don't fit into the main categories.",
+            predictions: otherThemes.reduce((acc, theme) => acc.concat(theme.predictions), [])
+          };
+          nonOtherThemes.push(combinedOther);
+        }
 
-
-        $sidebar.append(`
-                 <div class="box mb-5">
-                    <h2 class="title is-4">
-                      <span class="icon-text">
-                        <span class="icon"><i class="fas fa-robot"></i></span>
-                        <span>Model: ${model}</span>
-                      </span>
-                    </h2>
-                  <div class="legend flex is-flex-wrap-wrap is-justify-content-space-between">
-                    <span class="legend-item"><i class="fas fa-square has-text-success mr-2"></i>Likely</span>
-                    <span class="legend-item"><i class="fas fa-square has-text-info ml-2 mr-2"></i>Maybe</span>
-                    <span class="legend-item"><i class="fas fa-square has-text-danger ml-2 mr-2"></i>Unlikely</span>
-                  </div>
-                 </div>
-                `);
-
-        // sort themes by prediction count, "other" should be last
-        const sortedThemes = [...themes].sort((a, b) => {
+        const sortedThemes = [...nonOtherThemes].sort((a, b) => {
           if (a.theme === "Other") return 1;
           if (b.theme === "Other") return -1;
           const countA = a.predictions ? a.predictions.length : 0;
           const countB = b.predictions ? b.predictions.length : 0;
           return countB - countA;
         });
+
+        const $tabContentContainer = $('<div class="columns is-variable is-1 is-gapless" style="min-height: 500px"></div>').appendTo($tabContent);
+        const $sidebar = $('<aside class="column is-one-quarter menu theme-sidebar is-scrollable" style="height: 500px; overflow-y: auto"></aside>').appendTo($tabContentContainer);
+        const $mainContent = $('<div class="column is-three-quarters prediction-column is-scrollable" style="height: 500px; overflow-y: auto"></div>').appendTo($tabContentContainer);
+
+        $sidebar.append(`
+                    <div class="box mb-5">
+                        <h2 class="title is-4">
+                          <span class="icon-text">
+                            <span class="icon"><i class="fas fa-robot"></i></span>
+                            <span>Model: ${model}</span>
+                          </span>
+                        </h2>
+                      <div class="legend flex is-flex-wrap-wrap is-justify-content-space-between">
+                        <span class="legend-item"><i class="fas fa-square has-text-success mr-2"></i>Likely</span>
+                        <span class="legend-item"><i class="fas fa-square has-text-info ml-2 mr-2"></i>Maybe</span>
+                        <span class="legend-item"><i class="fas fa-square has-text-danger ml-2 mr-2"></i>Unlikely</span>
+                      </div>
+                    </div>
+                `);
 
         const $themeMenu = $('<ul class="menu-list"></ul>').appendTo($sidebar);
 
@@ -196,7 +209,7 @@ $(window).on('load', () => {
               $(this).parent('li').addClass('is-active');
 
               $mainContent.animate({ scrollTop: 0 }, 200, () => {
-                loadThemePredictions(theme, $mainContent)
+                loadThemePredictions(theme, $mainContent);
               });
             }).appendTo($themeMenu);
         });
@@ -205,7 +218,6 @@ $(window).on('load', () => {
           loadThemePredictions(sortedThemes[0], $mainContent);
           $themeMenu.find('li').first().addClass("is-active")
         }
-
       })
       .catch(error => {
         console.error('Error in data loading process:', error);
@@ -226,17 +238,26 @@ $(window).on('load', () => {
     $targetContent.empty();
     console.log("Loading Theme:", theme)
     const $themeContainer = $('<div class="container"></div>');
+
+    // Add probability filters at the top
+    const filterTemplate = document.getElementById('probability-filters');
+    const $filters = $(filterTemplate.content.cloneNode(true));
+    $themeContainer.append($filters);
+
+    $themeContainer.append(`
+          <h2 class="title is-4 mb-5">
+             <span class="icon-text">
+               <span>${theme.theme}</span>
+              </span>
+          </h2>
+      `);
+
     if (theme.summary) {
       $themeContainer.append(`
-                    <h2 class="title is-4 mb-5">
-                        <span class="icon-text">
-                            <span>${theme.theme}</span>
-                        </span>
-                     </h2>
-                            <div class="notification is-light mb-4">
-                                  <div class="summary-content"><strong>Summary:</strong>  ${theme.summary}</div>
-                            </div>
-                            `);
+              <div class="notification is-light mb-4">
+                  <div class="summary-content"><strong>Summary:</strong>  ${theme.summary}</div>
+             </div>
+            `);
     }
     if (theme.predictions && theme.predictions.length > 0) {
       theme.predictions.forEach(prediction => {
@@ -244,40 +265,69 @@ $(window).on('load', () => {
         const confidenceClass = probability >= 0.7 ? 'is-success' :
           probability >= 0.3 ? 'is-info' :
             'is-danger';
+        const probabilityCategory = probability >= 0.7 ? 'likely' :
+          probability >= 0.3 ? 'maybe' : 'unlikely';
 
         const $predictionBox = $('<div>')
-          .addClass(`prediction-box mb-4 ${confidenceClass}`) // Added confidenceClass here
+          .addClass(`prediction-box mb-4 ${confidenceClass}`)
+          .attr('data-probability', probabilityCategory)
           .appendTo($themeContainer);
         $predictionBox.html(`
-                   <div class="prediction-content">
-                    <div class="prediction-header">
-                     <div class="prediction-text">
-                       <span class="icon-text">
-                         <span class="has-text-weight-medium"><i class="prediction-icon fas fa-user"></i>  ${prediction.prediction}</span>
-                        </span>
-                      </div>
-                      <div class="prediction-probability ${confidenceClass}">
-                         <span class="icon"><i class="fas fa-chart-line"></i></span>
-                          <span>${(probability * 100).toFixed(0)}%</span>
+                         <div class="prediction-content">
+                            <div class="prediction-header">
+                             <div class="prediction-text">
+                               <span class="icon-text">
+                                 <span class="has-text-weight-medium"><i class="prediction-icon fas fa-user"></i>  ${prediction.prediction}</span>
+                               </span>
+                              </div>
+                             <div class="prediction-probability ${confidenceClass}">
+                             <span class="icon"><i class="fas fa-chart-line"></i></span>
+                             <span>${(probability * 100).toFixed(0)}%</span>
+                             </div>
+                             </div>
+                            <div class="prediction-justification ${confidenceClass}">
+                             <span class="icon-text">
+                               <span><i class="fas fa-robot"></i>  ${prediction.justification}</span>
+                            </span>
+                            </div>
                          </div>
-                        </div>
-                         <div class="prediction-justification ${confidenceClass}">
-                         <span class="icon-text">
-                           <span><i class="fas fa-robot"></i>  ${prediction.justification}</span>
-                          </span>
-                        </div>
-                     </div>
-               `);
+                `);
+      });
+
+      // Handle filter clicks
+      $themeContainer.find('.probability-filters .button').on('click', function () {
+        const $button = $(this);
+        const filter = $button.data('filter');
+
+        // Update button states
+        $button.siblings().removeClass('is-selected');
+        $button.addClass('is-selected');
+
+        // Filter predictions
+        const $predictions = $themeContainer.find('.prediction-box');
+        if (filter === 'all') {
+          $predictions.show();
+        } else {
+          $predictions.each(function () {
+            const $prediction = $(this);
+            const probability = $prediction.data('probability');
+            if (probability === filter) {
+              $prediction.show();
+            } else {
+              $prediction.hide();
+            }
+          });
+        }
       });
     } else {
       $themeContainer.append(`
-                     <div class="notification is-light">
-                       <span class="icon-text">
-                        <span class="icon"><i class="fas fa-info-circle"></i></span>
-                        <span>No predictions found in this theme.</span>
-                       </span>
-                     </div>
-                   `);
+             <div class="notification is-light">
+               <span class="icon-text">
+                <span class="icon"><i class="fas fa-info-circle"></i></span>
+                 <span>No predictions found in this theme.</span>
+               </span>
+             </div>
+           `);
     }
     $targetContent.append($themeContainer);
   }

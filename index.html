@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container is-fluid" style="width: 90%; max-width: 1200px; margin: 20px auto">
+    <div class="container is-fluid" style="width: 98%; max-width: none; margin: 10px auto">
         <section class="hero">
             <div class="hero-body">
                 <p class="title has-text-centered">
@@ -23,8 +23,19 @@
                   <!-- Tabs will be added here by javascript -->
              </ul>
          </div>
-         <div id="tab-content" class="tab-content"></div>
+         <div id="tab-content" class="tab-content">
+             <!-- Content will be added here by JavaScript -->
+         </div>
 
+         <!-- Template for probability filters -->
+         <template id="probability-filters">
+             <div class="probability-filters buttons has-addons is-centered mb-2">
+                 <button class="button is-rounded has-text-weight-bold" data-filter="all">All</button>
+                 <button class="button is-rounded is-success has-text-weight-bold" data-filter="likely">Likely</button>
+                 <button class="button is-rounded is-info has-text-weight-bold" data-filter="maybe">Maybe</button>
+                 <button class="button is-rounded is-danger has-text-weight-bold" data-filter="unlikely">Unlikely</button>
+             </div>
+         </template>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>

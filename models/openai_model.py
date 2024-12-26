@@ -6,7 +6,7 @@ from typing import Optional, Type
 
 
 class OpenAIModel(BaseAIModel):
-    def __init__(self, model_name: str = "gpt-4-turbo-preview", max_tokens: int = 4000):
+    def __init__(self, model_name: str = "gpt-4o", max_tokens: int = 4000):
         super().__init__(f"openai/{model_name}", max_tokens)
         self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:

@@ -1,6 +1,12 @@
-# HN Predictions Viewer
+# LLM's Review of Human Predictions for 2025
+Predictions are an annual tradition on Hacker News. I was curious what do some of the current LLMs think about what we predict about 2025.
 
-A web interface to view and analyze AI model predictions about Hacker News posts. This project provides an interactive way to explore predictions made by different AI models about potential Hacker News submissions.
+This silly project is a web app that filters comments, extracts predictions, evaluates them by their likelihood of happening, and organizes them by themes.
+
+The original discussion can be found here: https://news.ycombinator.com/item?id=42490343
+
+At the time of running this project, the original discussion has 550 comments from which these predictions were extracted by the LLMs. Each LLM differs in the comments it considers relevant for further evaluation, thus the variation in statistics. 
+
 
 ## Features
 
@@ -14,9 +20,3 @@ A web interface to view and analyze AI model predictions about Hacker News posts
 1. Clone this repository
 2. Open `index.html` in your browser
 3. No server setup required - all data is loaded from static JSON files
-
-## Structure
-
-- `index.html` - Main webpage
-- `script.js` - JavaScript code for the interface
-- `outputs/*.json` - Prediction data files from different models

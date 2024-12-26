@@ -1,0 +1,2450 @@
+{
+    "themes": [
+        {
+            "theme": "Gambling and Risk Behavior",
+            "summary": "Predictions related to gambling trends, betting behaviors, and their societal impacts, particularly focusing on contrarian betting strategies and concerns about youth gambling",
+            "predictions": [
+                {
+                    "prediction": "betting on the opposite of what HN predicts is a safe bet",
+                    "probability": 0.6,
+                    "justification": "While HN can have contrarian views, completely inverting all predictions is an oversimplification. Tech community insights are sometimes accurate despite biases."
+                },
+                {
+                    "prediction": "Gambling addiction in kids will rise significantly due to sports betting, crypto betting, and CSGO skin betting",
+                    "probability": 0.8,
+                    "justification": "Given current trends, aggressive advertising, easy access to gambling platforms, and existing data showing increased youth gambling, this is highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "Technology & AI Developments",
+            "summary": "Predictions related to artificial intelligence, digital platforms, and technological advancements",
+            "predictions": [
+                {
+                    "prediction": "Search engine results will be completely dominated by LLM-generated text",
+                    "probability": 0.7,
+                    "justification": "Growing prevalence of AI content, but search engines likely to adapt algorithms to maintain quality"
+                },
+                {
+                    "prediction": "First legal case of robot trouble involving LLM-instructed robot attacking human",
+                    "probability": 0.25,
+                    "justification": "While AI safety issues are concerning, this specific scenario seems premature for 2025"
+                },
+                {
+                    "prediction": "VR will remain a niche technology",
+                    "probability": 0.75,
+                    "justification": "Current adoption trends and hardware limitations suggest mainstream breakthrough is still far off"
+                },
+                {
+                    "prediction": "Smart home category will heat up",
+                    "probability": 0.85,
+                    "justification": "Strong likelihood due to major tech companies' increasing investment, improving technology, and growing consumer adoption. Market trends and product announcements support this direction."
+                },
+                {
+                    "prediction": "AI hype peaks. Massive losses are taken as 75% off the players in the space implode",
+                    "probability": 0.7,
+                    "justification": "Many AI companies are overvalued and the market shows signs of bubble behavior; a correction is likely"
+                },
+                {
+                    "prediction": "BlueSky will reach 100 million users",
+                    "probability": 0.25,
+                    "justification": "Platform faces strong competition from established social networks and current growth rate doesn't suggest this scale"
+                },
+                {
+                    "prediction": "Sora and similar video generating models will mark the beginning of a YouTube-like era",
+                    "probability": 0.85,
+                    "justification": "Given Sora's capabilities and rapid AI advancement, it's likely to revolutionize video content creation similar to how YouTube transformed video sharing"
+                },
+                {
+                    "prediction": "Late 2025 some TSMC 2 nanometer chips, maybe for Apple",
+                    "probability": 0.8,
+                    "justification": "TSMC has a strong track record of meeting its process node targets and has already announced 2nm plans for 2025"
+                },
+                {
+                    "prediction": "BitGrid will emerge as the most efficient way to bring Petaflops to the masses before being classified as 'born secret'",
+                    "probability": 0.1,
+                    "justification": "While distributed computing advances continue, the specificity of 'BitGrid' and the claim it would be so revolutionary as to be classified seems unlikely. Most computing advances remain in the public/commercial sector."
+                }
+            ]
+        },
+        {
+            "theme": "Economic & Financial Predictions",
+            "summary": "Forecasts about markets, wealth distribution, and financial systems",
+            "predictions": [
+                {
+                    "prediction": "Someone's net worth will reach $1T",
+                    "probability": 0.4,
+                    "justification": "Given current wealth accumulation rates and exponential growth in tech/AI sectors, reaching $1T is possible within years, though economic uncertainties and regulatory pressures could limit such extreme wealth concentration."
+                },
+                {
+                    "prediction": "The NASDAQ doubles",
+                    "probability": 0.15,
+                    "justification": "A 100% increase in NASDAQ within a year would be historically unprecedented; current market conditions and economic headwinds make this extremely unlikely"
+                },
+                {
+                    "prediction": "Russell outperforms NASDAQ",
+                    "probability": 0.4,
+                    "justification": "While possible, tech sector momentum makes NASDAQ outperformance more likely"
+                },
+                {
+                    "prediction": "Capital controls will be implemented but harder to enforce due to digital assets",
+                    "probability": 0.75,
+                    "justification": "Historical precedent shows capital controls follow fiscal dominance, but modern financial technology makes enforcement more challenging."
+                },
+                {
+                    "prediction": "Venture Capital as an asset class completely collapses",
+                    "probability": 0.2,
+                    "justification": "While VC may face challenges, complete collapse is unlikely given its established role in innovation funding"
+                },
+                {
+                    "prediction": "Global deflationary bust caused by the FED being too tight for too long",
+                    "probability": 0.4,
+                    "justification": "While monetary policy risks exist, central banks have tools to prevent severe deflationary scenarios"
+                },
+                {
+                    "prediction": "Canadian dollar to US$0.65",
+                    "probability": 0.45,
+                    "justification": "While CAD faces pressures, this level of decline would require significant economic deterioration"
+                },
+                {
+                    "prediction": "Wealth inequality will increase at an exponentially faster rate",
+                    "probability": 0.75,
+                    "justification": "Current trends in technology, automation, and capital concentration support this trajectory"
+                },
+                {
+                    "prediction": "Inflation/Currency debasement will continue getting worse with abandonment of petrodollar",
+                    "probability": 0.4,
+                    "justification": "While some de-dollarization is occurring, the USD remains dominant and central banks are actively fighting inflation"
+                }
+            ]
+        },
+        {
+            "theme": "Political & Regulatory Changes",
+            "summary": "Predictions about government policies, regulations, and political developments",
+            "predictions": [
+                {
+                    "prediction": "Government backed SSO (Single Sign-On) will become standard for online identity verification",
+                    "probability": 0.65,
+                    "justification": "Growing pressure for online identity verification and election security makes this plausible, though privacy concerns may slow adoption."
+                },
+                {
+                    "prediction": "US regulations will align more closely with EU standards regarding selective LED segment disabling",
+                    "probability": 0.6,
+                    "justification": "Given safety concerns and technological advancement, US regulatory bodies may adopt more progressive lighting standards similar to EU, though bureaucratic hurdles could slow the process"
+                },
+                {
+                    "prediction": "US marked increase in military-industrial complex spending to $800B/y",
+                    "probability": 0.8,
+                    "justification": "Highly likely given global geopolitical tensions and historical trends in US defense spending"
+                },
+                {
+                    "prediction": "Half of European inhabitants will live in a country with far-right head of state by end of 2025",
+                    "probability": 0.35,
+                    "justification": "While far-right movements are gaining traction in Europe, achieving this level of dominance by 2025 seems unlikely given current political distributions"
+                },
+                {
+                    "prediction": "Multiple cabinet members will be indicted before 2026",
+                    "probability": 0.6,
+                    "justification": "Historical patterns of political investigations and current polarized environment make this fairly likely"
+                },
+                {
+                    "prediction": "Trump will implement more tariffs on China leading to retaliatory measures affecting Europe",
+                    "probability": 0.6,
+                    "justification": "Based on historical patterns and current geopolitical tensions, though depends on election outcome"
+                },
+                {
+                    "prediction": "Milei's experiment in Argentina will not cause collapse but poverty and unemployment will rise",
+                    "probability": 0.75,
+                    "justification": "Radical economic reforms typically cause short-term pain; historical precedents support this outcome"
+                },
+                {
+                    "prediction": "Trump to meet Putin in person",
+                    "probability": 0.4,
+                    "justification": "While possible if Trump wins election, international tensions and logistics make this moderately unlikely in the near term."
+                }
+            ]
+        },
+        {
+            "theme": "Healthcare & Medical Advances",
+            "summary": "Predictions about medical developments, healthcare systems, and public health",
+            "predictions": [
+                {
+                    "prediction": "Healthcare issues in the US will spill into other countries with declining life expectancy",
+                    "probability": 0.65,
+                    "justification": "Current healthcare system strain and global interconnectedness make this plausible"
+                },
+                {
+                    "prediction": "ADHD medications will hit a record high",
+                    "probability": 0.8,
+                    "justification": "Given increasing ADHD diagnosis rates, growing awareness, and improved access to healthcare, this prediction is likely. Recent trends already show rising prescription rates."
+                },
+                {
+                    "prediction": "A key biomedical advancement will come from China",
+                    "probability": 0.6,
+                    "justification": "China's increasing R&D investments and biotech focus make this plausible"
+                },
+                {
+                    "prediction": "Another breakthrough drug similar to Ozempic will emerge",
+                    "probability": 0.6,
+                    "justification": "Pharmaceutical research is active but breakthroughs of similar impact are rare"
+                },
+                {
+                    "prediction": "Medical bankruptcy will become far more common",
+                    "probability": 0.65,
+                    "justification": "Growing healthcare costs, aging population, and potential Medicare changes make this plausible"
+                },
+                {
+                    "prediction": "Exciting developments in brain-controlled exoskeletons without implants",
+                    "probability": 0.55,
+                    "justification": "Active research area with recent promising developments, but technical challenges remain"
+                }
+            ]
+        },
+        {
+            "theme": "Environmental & Energy",
+            "summary": "Predictions about climate change, renewable energy, and environmental developments",
+            "predictions": [
+                {
+                    "prediction": "Hottest weather in recorded history with extreme weather events",
+                    "probability": 0.85,
+                    "justification": "Consistent with climate change trends and recent years' patterns of record-breaking temperatures"
+                },
+                {
+                    "prediction": "La Ni\u00f1a will last very few months",
+                    "probability": 0.7,
+                    "justification": "Based on historical patterns and current climate models, this is a reasonable meteorological prediction"
+                },
+                {
+                    "prediction": "US prioritizes LNG development and export",
+                    "probability": 0.8,
+                    "justification": "Global energy security concerns and economic opportunities make this highly likely"
+                },
+                {
+                    "prediction": "Battery price drops 30%",
+                    "probability": 0.6,
+                    "justification": "Consistent with historical trends in battery technology and scaling production"
+                },
+                {
+                    "prediction": "Grid storage capacity will still be mostly a rounding error in 2025",
+                    "probability": 0.7,
+                    "justification": "Grid storage infrastructure takes significant time to develop and deploy, one year is too short for major capacity changes"
+                },
+                {
+                    "prediction": "Wind power increases 7-21%",
+                    "probability": 0.8,
+                    "justification": "Consistent with current growth trends and global renewable energy investments"
+                }
+            ]
+        },
+        {
+            "theme": "Corporate & Business",
+            "summary": "Predictions about specific companies, business trends, and corporate developments",
+            "predictions": [
+                {
+                    "prediction": "Selling users' data will go out of fashion as companies use privacy as competitive advantage",
+                    "probability": 0.4,
+                    "justification": "While privacy concerns are growing, ad-based revenue models remain highly profitable and entrenched"
+                },
+                {
+                    "prediction": "Microsoft will sell Windows Server standard at $500/instance/year without CALs",
+                    "probability": 0.3,
+                    "justification": "Would be major change to Microsoft's licensing model, seems unlikely given their current strategy"
+                },
+                {
+                    "prediction": "Tesla sales continue to decline while stock continues to soar",
+                    "probability": 0.6,
+                    "justification": "Based on increasing EV competition and Tesla's historical stock performance disconnect from fundamentals"
+                },
+                {
+                    "prediction": "Tesla robotaxi will not ship/work",
+                    "probability": 0.85,
+                    "justification": "Given the technical challenges and Tesla's track record with FSD promises"
+                },
+                {
+                    "prediction": "Apple and Disney will merge",
+                    "probability": 0.1,
+                    "justification": "Both are massive companies with different core businesses. Regulatory hurdles and business culture differences make this unlikely."
+                },
+                {
+                    "prediction": "At least one FAANG gets split up properly",
+                    "probability": 0.4,
+                    "justification": "Despite increasing regulatory pressure, tech breakups face significant legal and practical hurdles"
+                },
+                {
+                    "prediction": "Layoffs get peaked",
+                    "probability": 0.5,
+                    "justification": "Economic indicators are mixed; while tech layoffs might slow, other sectors could see increases"
+                },
+                {
+                    "prediction": "Remote work stabilizes at hybrid model with 2-3 office days per week",
+                    "probability": 0.8,
+                    "justification": "Current workplace trends and company policies already showing this pattern"
+                }
+            ]
+        },
+        {
+            "theme": "Unusual & Controversial",
+            "summary": "Predictions that are either highly speculative or controversial in nature",
+            "predictions": [
+                {
+                    "prediction": "Disclosure of extraterrestrial life will occur",
+                    "probability": 0.15,
+                    "justification": "While there's increasing government transparency about UAP/UFO phenomena, concrete evidence of extraterrestrial life remains elusive. The existence of life elsewhere is probable, but near-term disclosure of definitive contact is less likely."
+                },
+                {
+                    "prediction": "E.T. will get a sequel",
+                    "probability": 0.2,
+                    "justification": "Given Spielberg's historical resistance to an E.T. sequel and the sacred status of the original, a sequel is unlikely but not impossible in the current remake-heavy environment"
+                },
+                {
+                    "prediction": "Pickup trucks will evolve to having 8 headlights starting in 2025",
+                    "probability": 0.25,
+                    "justification": "While there is a trend of increasing headlight features in trucks, jumping to 8 distinct headlights seems unlikely due to design constraints and regulatory standards"
+                },
+                {
+                    "prediction": "Elon and Trump break up in Taylor Swift style. Messy and dramatic",
+                    "probability": 0.4,
+                    "justification": "While both figures are known for dramatic public statements, their alliance seems pragmatic and their interests currently align"
+                },
+                {
+                    "prediction": "Elon and Trump will become frenemies",
+                    "probability": 0.6,
+                    "justification": "Given their personalities and aligned interests in certain areas"
+                },
+                {
+                    "prediction": "More corporate executives in unpopular industries will be assassinated with some assassins walking free due to jury nullification",
+                    "probability": 0.2,
+                    "justification": "While social tensions are high, widespread executive assassinations remain unlikely. Jury nullification in such cases would be extremely rare given the severity of the crime."
+                },
+                {
+                    "prediction": "Flynn effect will be shown as reversed due to LLM dependence",
+                    "probability": 0.35,
+                    "justification": "While AI dependency might affect cognitive patterns, proving causation for IQ decline would require longer study periods"
+                },
+                {
+                    "prediction": "Wikipedia starts to collapse",
+                    "probability": 0.2,
+                    "justification": "Wikipedia has proven resilient with established community and funding model, collapse unlikely in short term"
+                },
+                {
+                    "prediction": "Gamestop MOASS will not happen in 2025",
+                    "probability": 0.9,
+                    "justification": "MOASS theory lacks solid fundamental basis; market conditions and regulatory environment make it highly unlikely"
+                }
+            ]
+        },
+        {
+            "theme": "Technology and AI Advancement",
+            "summary": "Predictions related to artificial intelligence, robotics, and technological innovations",
+            "predictions": [
+                {
+                    "prediction": "Reasonable bipedal robots will be available at $8k",
+                    "probability": 0.45,
+                    "justification": "While robotics costs are decreasing, achieving reliable bipedal locomotion at this price point remains challenging. Component costs and complexity make this timeline uncertain."
+                },
+                {
+                    "prediction": "AI-powered disease detection through VOC analysis",
+                    "probability": 0.6,
+                    "justification": "Technology exists but needs more development for widespread implementation and validation"
+                },
+                {
+                    "prediction": "Robot noses will be integrated into nanny bots for smoke detection and grocery store robots for detecting spoiled food",
+                    "probability": 0.6,
+                    "justification": "This is a logical application of the technology, but depends on wider robotics industry development which is still emerging. The use cases are practical and have clear business value."
+                },
+                {
+                    "prediction": "Self-driving truck cross country without human approval",
+                    "probability": 0.3,
+                    "justification": "While autonomous technology is advancing, regulatory and safety concerns make this unlikely in the immediate future"
+                },
+                {
+                    "prediction": "Speech interfaces based on open-source stacks will emerge",
+                    "probability": 0.75,
+                    "justification": "Growing trend in open-source AI models and increasing demand for privacy-focused solutions make this likely."
+                },
+                {
+                    "prediction": "Open Source LLM takes lead in ARC benchmark",
+                    "probability": 0.5,
+                    "justification": "Open source models are improving rapidly but competing with well-funded proprietary models remains challenging"
+                },
+                {
+                    "prediction": "OpenAI will not have positive cash flow by end of year",
+                    "probability": 0.8,
+                    "justification": "High R&D costs, computational expenses, and focus on growth over profitability make this likely"
+                }
+            ]
+        },
+        {
+            "theme": "Consumer Electronics and Hardware",
+            "summary": "Predictions about devices, displays, and consumer tech products",
+            "predictions": [
+                {
+                    "prediction": "Thread-over-Matter mesh networking UWB in door locks",
+                    "probability": 0.7,
+                    "justification": "Technical advancement in smart home standards and increasing adoption of Thread protocol make this likely, especially with Matter standard gaining traction."
+                },
+                {
+                    "prediction": "Solid state battery doesn't yet appear in phones",
+                    "probability": 0.75,
+                    "justification": "While solid state battery tech is advancing, mass production challenges and cost barriers make 2025 adoption in phones unlikely"
+                },
+                {
+                    "prediction": "MicroLED in some high-end glasses",
+                    "probability": 0.6,
+                    "justification": "Technology is maturing but cost and manufacturing challenges remain significant for small form factors"
+                },
+                {
+                    "prediction": "Samsung will demonstrate a tri-fold OLED screen",
+                    "probability": 0.7,
+                    "justification": "Samsung has already shown dual-fold prototypes and leads in foldable display technology"
+                },
+                {
+                    "prediction": "Valve releases a Steam client for ARM64 and makes native ports of all their games",
+                    "probability": 0.6,
+                    "justification": "Given the success of Steam Deck and growing ARM adoption, this is plausible. Valve has shown interest in platform expansion."
+                },
+                {
+                    "prediction": "Valve will release their 'deckard' headset",
+                    "probability": 0.7,
+                    "justification": "Multiple reliable leaks and patents suggest Valve is working on a VR headset. Given their hardware timeline, release is likely."
+                }
+            ]
+        },
+        {
+            "theme": "Political and Social Issues",
+            "summary": "Predictions about elections, social changes, and political events",
+            "predictions": [
+                {
+                    "prediction": "The percentage of youth who identify as LGBT will be lower because more of them would be closeted",
+                    "probability": 0.55,
+                    "justification": "While social pressures might increase in some regions, broader societal acceptance and available support systems may counteract this effect"
+                },
+                {
+                    "prediction": "AFD will win german federal elections",
+                    "probability": 0.15,
+                    "justification": "While AFD's popularity has increased, winning federal elections would require unprecedented shift in German politics"
+                },
+                {
+                    "prediction": "Trump inaugurated without any incident",
+                    "probability": 0.4,
+                    "justification": "Given historical precedent of January 6th and current political tensions, a completely incident-free inauguration seems unlikely if Trump wins"
+                },
+                {
+                    "prediction": "Full occupation of Ukraine will not be accepted by NATO",
+                    "probability": 0.9,
+                    "justification": "Given NATO's strong commitment to Ukraine, current Russian military weakness, and international support, this is highly likely to remain true"
+                },
+                {
+                    "prediction": "Gaza War ends",
+                    "probability": 0.4,
+                    "justification": "While international pressure is high, complex regional dynamics make quick resolution challenging"
+                },
+                {
+                    "prediction": "TikTok ban becomes a nothingburger",
+                    "probability": 0.7,
+                    "justification": "Historical precedent shows attempts to ban TikTok have faced legal challenges and failed to materialize"
+                }
+            ]
+        },
+        {
+            "theme": "Business and Economy",
+            "summary": "Predictions about corporate leadership, workplace trends, and economic developments",
+            "predictions": [
+                {
+                    "prediction": "One or few FAANGMANGA leaders will retire (likely Tim Cook or Sundar Pichai)",
+                    "probability": 0.7,
+                    "justification": "Given age and tenure patterns in tech leadership, plus increasing pressures, leadership changes are quite likely in the next few years"
+                },
+                {
+                    "prediction": "Program/Project Manager roles go to zero",
+                    "probability": 0.15,
+                    "justification": "While AI will impact PM roles, complete elimination is unlikely as human judgment, stakeholder management, and coordination will remain valuable"
+                },
+                {
+                    "prediction": "Despite being a highly valued member of my organization and despite my company making money hand over fist, I will not get a holiday bonus this year",
+                    "probability": 0.6,
+                    "justification": "Given current economic conditions and widespread corporate cost-cutting measures, this is a reasonable concern though specific to individual circumstances"
+                },
+                {
+                    "prediction": "US will hit records for crude oil and natural gas extraction",
+                    "probability": 0.75,
+                    "justification": "Given current trends in US energy production and technological improvements in extraction methods, this is fairly likely"
+                },
+                {
+                    "prediction": "X starts providing financial services",
+                    "probability": 0.7,
+                    "justification": "Aligns with Musk's stated goals and X's strategic direction"
+                },
+                {
+                    "prediction": "50% likelihood that if you are an American, you will eat at a restaurant where the food is made by machines",
+                    "probability": 0.3,
+                    "justification": "While automation in food service is increasing, full automation at this scale within one year seems overly ambitious"
+                }
+            ]
+        },
+        {
+            "theme": "Cybersecurity and Infrastructure",
+            "summary": "Predictions about digital security, infrastructure challenges, and regulatory matters",
+            "predictions": [
+                {
+                    "prediction": "US hollows-out functional regulators necessary for safety, growth, and industry",
+                    "probability": 0.6,
+                    "justification": "Regulatory changes are likely but complete hollowing out is less probable due to institutional resistance"
+                },
+                {
+                    "prediction": "US major cyberattack crippling infrastructure",
+                    "probability": 0.45,
+                    "justification": "Threat is real but major successful attacks are less frequent due to improved cybersecurity measures"
+                },
+                {
+                    "prediction": "Major cybersecurity crisis involving AI models leads to security practice changes",
+                    "probability": 0.6,
+                    "justification": "Growing AI deployment increases attack surface, but uncertain timing"
+                },
+                {
+                    "prediction": "Cascadia fault line will pop in such a significant manner that the rules on fault lines will be rewritten",
+                    "probability": 0.15,
+                    "justification": "Major Cascadia events occur every 200-500 years, last one was in 1700. While due for an event, probability of it happening in the immediate future and being severe enough to rewrite rules is relatively low."
+                }
+            ]
+        },
+        {
+            "theme": "Space and Aviation",
+            "summary": "Predictions related to space exploration and aerospace achievements",
+            "predictions": [
+                {
+                    "prediction": "Blue Origin's New Glenn achieves successful booster recovery and payload to orbit delivery",
+                    "probability": 0.65,
+                    "justification": "Blue Origin has technical expertise and resources, but has faced delays. Recovery technology is proven by SpaceX, making this achievable by 2024-25"
+                }
+            ]
+        },
+        {
+            "theme": "Entertainment and Media",
+            "summary": "Predictions about entertainment, literature, and media content",
+            "predictions": [
+                {
+                    "prediction": "George RR Martin releases The Winds of Winter",
+                    "probability": 0.25,
+                    "justification": "Given the long delay and pattern of missed deadlines, likelihood remains low though not impossible"
+                },
+                {
+                    "prediction": "Kanojo Okarishimasu season 4 will air in the first week of July",
+                    "probability": 0.7,
+                    "justification": "Anime series typically follow seasonal schedules, and if this is officially announced, the timing is likely accurate though exact dates can shift slightly"
+                },
+                {
+                    "prediction": "Magnus Carlsen will lose his 1st place in the FIDE top ranking",
+                    "probability": 0.4,
+                    "justification": "Despite reduced classical chess participation and focus on other formats, his rating gap remains significant and his selective participation helps maintain ranking"
+                }
+            ]
+        },
+        {
+            "theme": "Other",
+            "summary": "Miscellaneous predictions that don't fit clearly into other categories or are unique standalone predictions",
+            "predictions": [
+                {
+                    "prediction": "Ancient manuscript discovered readable only by MRI and AI that realigns Abrahamic religions",
+                    "probability": 0.01,
+                    "justification": "Extremely specific and unlikely scenario that combines multiple improbable elements with no current scientific basis"
+                },
+                {
+                    "prediction": "Building a bird feeder camera with code to photograph birds",
+                    "probability": 0.6,
+                    "justification": "Personal project with all parts available, but technical challenges and time management could delay completion"
+                },
+                {
+                    "prediction": "Linux won't reach 2% of PCs but will get close",
+                    "probability": 0.75,
+                    "justification": "Linux adoption has been growing slowly but steadily, current market share trends support this prediction"
+                },
+                {
+                    "prediction": "HN will stop hating and start loving crypto",
+                    "probability": 0.3,
+                    "justification": "HN community historically skeptical of crypto; fundamental shift in sentiment unlikely without major technological breakthroughs"
+                },
+                {
+                    "prediction": "Someone will develop an algorithm for real-time quantum computer simulation at any scale, which will then be classified",
+                    "probability": 0.08,
+                    "justification": "Efficient classical simulation of quantum systems at scale faces fundamental computational barriers. While advances in quantum simulation continue, a breakthrough of this magnitude is highly improbable given known physical limitations."
+                },
+                {
+                    "prediction": "Traditional higher education faces crisis due to alternative credentials",
+                    "probability": 0.65,
+                    "justification": "Trend towards alternative education growing but institutional inertia is strong"
+                }
+            ]
+        },
+        {
+            "theme": "Health Technology",
+            "summary": "AI and robotic innovations focused on medical detection and diagnostics",
+            "predictions": [
+                {
+                    "prediction": "Cheap versions of AI/robot noses that can detect diseases through air samples will become available",
+                    "probability": 0.7,
+                    "justification": "The technology already exists and is being developed. With increasing robotics adoption and mass production, costs should decrease. Multiple research institutions are working on this, and there are existing proofs of concept."
+                }
+            ]
+        },
+        {
+            "theme": "Home Automation",
+            "summary": "Smart home devices and autonomous robots for household tasks",
+            "predictions": [
+                {
+                    "prediction": "A combo of aibo/roomba/ring like device that goes about or rolls around your house",
+                    "probability": 0.6,
+                    "justification": "Current robotics trends and home automation suggest this is possible, though technical challenges remain"
+                }
+            ]
+        },
+        {
+            "theme": "Social Media Platform Evolution",
+            "summary": "Predictions about the future state and relevance of various social media platforms",
+            "predictions": [
+                {
+                    "prediction": "Twitter and Facebook will still be around, Bluesky will be no more, Mastodon will continue to be niche",
+                    "probability": 0.7,
+                    "justification": "Established platforms have strong network effects; while Bluesky shows promise, historical patterns suggest most alternative social platforms remain niche or fail"
+                }
+            ]
+        },
+        {
+            "theme": "Platform Regulation and Control",
+            "summary": "Predictions related to government oversight, regulation, and special treatment of social media platforms",
+            "predictions": [
+                {
+                    "prediction": "Truth Social and X will be exempt from platform controls",
+                    "probability": 0.35,
+                    "justification": "Legal and regulatory frameworks typically don't allow for such selective enforcement"
+                }
+            ]
+        },
+        {
+            "theme": "Government Integration",
+            "summary": "Predictions about social media platforms becoming integrated with government services",
+            "predictions": [
+                {
+                    "prediction": "X (Twitter) accounts will become mandatory for government services like DMV",
+                    "probability": 0.15,
+                    "justification": "Very unlikely due to privacy concerns, anti-trust issues, and government preference for their own systems over private platforms."
+                }
+            ]
+        },
+        {
+            "theme": "Platform Consolidation",
+            "summary": "Predictions about mergers and acquisitions between social media platforms",
+            "predictions": [
+                {
+                    "prediction": "Twitter and Truth Social will merge in some weird all stock transaction",
+                    "probability": 0.1,
+                    "justification": "Complex regulatory, political, and business barriers make this highly unlikely"
+                }
+            ]
+        },
+        {
+            "theme": "Economic Power Shifts",
+            "summary": "Predictions related to global economic changes and wealth distribution",
+            "predictions": [
+                {
+                    "prediction": "We'll see the world's first trillionaire",
+                    "probability": 0.4,
+                    "justification": "Current market conditions and Fed policies might slow down the wealth accumulation of top billionaires, making this less likely in the near term"
+                },
+                {
+                    "prediction": "India will become third largest economy in the world",
+                    "probability": 0.6,
+                    "justification": "India's current growth trajectory and economic indicators make this plausible in the near term"
+                },
+                {
+                    "prediction": "China declares itself the biggest and most stable global superpower",
+                    "probability": 0.3,
+                    "justification": "While China's influence is growing, internal economic challenges and international tensions make such a declaration less likely in the immediate future."
+                }
+            ]
+        },
+        {
+            "theme": "Energy and Technology Breakthroughs",
+            "summary": "Predictions about energy production, renewable resources, and technological innovations",
+            "predictions": [
+                {
+                    "prediction": "Renewable electricity becoming cheap enough to extract oxygen from air/water as a commodity",
+                    "probability": 0.1,
+                    "justification": "Timeline too short for such significant cost reduction, infrastructure challenges remain significant"
+                },
+                {
+                    "prediction": "New nuclear will continue to be vaporware",
+                    "probability": 0.7,
+                    "justification": "Nuclear projects continue to face cost overruns and delays, though some projects are making progress"
+                },
+                {
+                    "prediction": "Cold fusion technology, previously repressed since the 1950s, will be revealed and provide personal megawatt-scale clean energy",
+                    "probability": 0.05,
+                    "justification": "Cold fusion claims have been thoroughly investigated and debunked by mainstream science. While government secrecy exists, the probability of suppressed working cold fusion is extremely low given the physics involved and lack of supporting evidence."
+                }
+            ]
+        },
+        {
+            "theme": "Global Conflicts and Security Threats",
+            "summary": "Predictions involving warfare, weapons, and security challenges",
+            "predictions": [
+                {
+                    "prediction": "There will be a dangerous incident in space due to orbital debris",
+                    "probability": 0.4,
+                    "justification": "While debris is increasing, tracking systems and avoidance protocols are also improving"
+                },
+                {
+                    "prediction": "There will be a war (nearly third world war level)",
+                    "probability": 0.3,
+                    "justification": "While geopolitical tensions are high, the costs and risks of global conflict make full-scale world war less likely"
+                },
+                {
+                    "prediction": "A nuclear bomb will be detonated somewhere other than North Korea",
+                    "probability": 0.15,
+                    "justification": "Extremely serious consequence but low probability given international deterrence"
+                }
+            ]
+        },
+        {
+            "theme": "Transportation and Mobility",
+            "summary": "Advancements in autonomous transportation systems and their impact on public perception",
+            "predictions": [
+                {
+                    "prediction": "Geofenced robotaxis will become more common and shift public attitude",
+                    "probability": 0.8,
+                    "justification": "Companies like Waymo and Cruise are already expanding operations, with strong technological progress and regulatory support"
+                }
+            ]
+        },
+        {
+            "theme": "Robotics Affordability",
+            "summary": "Decreasing costs in robotics technology making advanced robots more accessible",
+            "predictions": [
+                {
+                    "prediction": "The cost of robots will drop substantially, providing a reasonable bipedal option at $8k",
+                    "probability": 0.4,
+                    "justification": "While robotics costs are decreasing, achieving reliable bipedal robots at this price point by 2025 seems ambitious given current technology costs"
+                }
+            ]
+        },
+        {
+            "theme": "Google and Big Tech Behavior",
+            "summary": "Predictions specifically about Google's product strategy and major tech companies' AI initiatives",
+            "predictions": [
+                {
+                    "prediction": "Google will lead in real-life image and video intelligence due to their dataset advantage",
+                    "probability": 0.75,
+                    "justification": "Google's vast data from Google Images and YouTube gives them a significant competitive advantage in training visual AI models, though regulatory scrutiny could impact data usage."
+                },
+                {
+                    "prediction": "Google will announce but not launch new products to general public",
+                    "probability": 0.75,
+                    "justification": "Consistent with Google's historical pattern of announcing and later abandoning products"
+                },
+                {
+                    "prediction": "Google will rename their AI product at least 3 times",
+                    "probability": 0.75,
+                    "justification": "Google has a well-documented history of frequently rebranding products and services, especially in emerging technology areas. Already seen with Bard to Gemini transition."
+                },
+                {
+                    "prediction": "Google will launch and shut down at least 5 messaging services",
+                    "probability": 0.55,
+                    "justification": "Google has a track record of launching and discontinuing messaging apps, though 5 is a high number. The pace of launch/shutdown may be slower now given past experiences."
+                },
+                {
+                    "prediction": "At least one of the top-tier companies doing GenAI research (e.g. MS, Google, or OpenAI) will cut their losses and shut down said program",
+                    "probability": 0.15,
+                    "justification": "Given the massive investments and strategic importance of AI to these companies, it's unlikely they would completely shut down their AI programs. They might restructure or scale back, but complete shutdown is improbable."
+                }
+            ]
+        },
+        {
+            "theme": "AI Impact on Society and Culture",
+            "summary": "Societal and cultural changes driven by AI adoption and its influence on human behavior",
+            "predictions": [
+                {
+                    "prediction": "IQ will continue to decline driven by over-reliance on LLM output and the majority watching video shorts",
+                    "probability": 0.4,
+                    "justification": "While changing media consumption patterns might affect cognitive processes, direct IQ impact is speculative and multiple factors influence intelligence metrics"
+                },
+                {
+                    "prediction": "ChatBot technology will be instrumental to the rise of oligarchical societies and fascism",
+                    "probability": 0.55,
+                    "justification": "AI technology could enable mass manipulation, but multiple societal factors and countermeasures exist"
+                },
+                {
+                    "prediction": "'AI-free' becomes a marketing term with premium human-only services",
+                    "probability": 0.7,
+                    "justification": "Growing AI skepticism and desire for human authenticity could drive this trend, similar to 'organic' movement"
+                },
+                {
+                    "prediction": "AI harm will come from developer mistakes and security holes rather than sentience",
+                    "probability": 0.8,
+                    "justification": "Current understanding of AI development suggests security vulnerabilities and human error are more immediate risks than AI sentience"
+                }
+            ]
+        },
+        {
+            "theme": "AI Applications and Technical Developments",
+            "summary": "Specific use cases and technical applications of AI technology",
+            "predictions": [
+                {
+                    "prediction": "Increase in gamification of AI training where player data becomes training data",
+                    "probability": 0.8,
+                    "justification": "Already happening with some AI systems, aligns with both gaming industry trends and need for diverse training data"
+                },
+                {
+                    "prediction": "AI with physics simulators and CAD software will advance engine design",
+                    "probability": 0.75,
+                    "justification": "Already happening in some capacity, technology and tools are available, clear business value"
+                },
+                {
+                    "prediction": "AI attempts on million-dollar mathematics prizes",
+                    "probability": 0.4,
+                    "justification": "While AI is advancing in mathematics, Millennium Prize Problems are extremely complex and may require novel mathematical insights"
+                },
+                {
+                    "prediction": "Voice control for personal computers will see significant increase in adoption",
+                    "probability": 0.55,
+                    "justification": "While AI is improving voice interfaces, cultural and practical barriers to widespread adoption remain"
+                },
+                {
+                    "prediction": "Voice assistants (Alexa, Google Assistant, Siri) will continue to be downsized due to limited use cases",
+                    "probability": 0.7,
+                    "justification": "Historical trend supports this - teams have already been downsized, and usage patterns show limited value beyond basic functions"
+                },
+                {
+                    "prediction": "Netflix starts generating series with GenAI",
+                    "probability": 0.4,
+                    "justification": "While AI will likely be used in content creation, fully GenAI-generated series by 2025 seems premature given current technology limitations and creative quality requirements."
+                }
+            ]
+        },
+        {
+            "theme": "Media and Content Consumption",
+            "summary": "Changes in how people consume and interact with media content",
+            "predictions": [
+                {
+                    "prediction": "Long form podcasts will continue to grow, although still watched by less than 1% of the population",
+                    "probability": 0.75,
+                    "justification": "The growth trend for long-form podcasts is well-established, and the niche nature of the medium makes the 1% ceiling plausible"
+                },
+                {
+                    "prediction": "Netflix starts generating series with GenAI",
+                    "probability": 0.4,
+                    "justification": "While AI will likely be used in content creation, fully GenAI-generated series by 2025 seems premature given current technology limitations and creative quality requirements."
+                }
+            ]
+        },
+        {
+            "theme": "Technology Infrastructure",
+            "summary": "Fundamental changes in technology infrastructure and systems",
+            "predictions": [
+                {
+                    "prediction": "with the polarization of the world and the new global crisis coming, people might realise the ever growing need of decentralization, and we might see the real birth of web3 technologies",
+                    "probability": 0.4,
+                    "justification": "While global tensions could drive interest in decentralization, mainstream web3 adoption faces significant technical, regulatory, and usability challenges"
+                }
+            ]
+        },
+        {
+            "theme": "Cloud and Infrastructure Evolution",
+            "summary": "Predictions related to changes in cloud computing strategies and cost considerations",
+            "predictions": [
+                {
+                    "prediction": "Cloud egress costs will be heavily scrutinized and competed upon",
+                    "probability": 0.8,
+                    "justification": "Growing cloud costs and increasing competition among providers make this a likely development"
+                },
+                {
+                    "prediction": "Apple or similar company will move things off cloud to a locally owned 'box' that pairs with a new dumb-client/thin phone",
+                    "probability": 0.5,
+                    "justification": "While edge computing is trending, full shift to local computing faces significant technical and practical challenges"
+                }
+            ]
+        },
+        {
+            "theme": "Apple Smart Home Ecosystem Expansion",
+            "summary": "Predictions focused on Apple's expansion into smart home products and home automation",
+            "predictions": [
+                {
+                    "prediction": "Apple will release room panels for AI/conferencing/control",
+                    "probability": 0.6,
+                    "justification": "Aligns with Apple's product strategy and market rumors, though Apple's exact plans in the smart home space remain uncertain."
+                },
+                {
+                    "prediction": "Apple will release security cameras and door locks",
+                    "probability": 0.4,
+                    "justification": "While possible, Apple typically partners rather than directly produces these hardware categories. Less likely they'll manufacture these directly."
+                },
+                {
+                    "prediction": "Apple will ship a HomeKit hub with a screen",
+                    "probability": 0.7,
+                    "justification": "Multiple reliable rumors suggest this product is in development, fitting Apple's ecosystem expansion strategy and market demands."
+                }
+            ]
+        },
+        {
+            "theme": "Future of Consumer Technology",
+            "summary": "Predictions about upcoming consumer technology trends and design elements in vehicles and wearables",
+            "predictions": [
+                {
+                    "prediction": "Light bars (like on Rivian R1T or Cybertruck) will become the standard for future vehicles",
+                    "probability": 0.8,
+                    "justification": "This trend is already visible in new EV designs and offers practical benefits. Major manufacturers are adopting this design language and technology"
+                },
+                {
+                    "prediction": "First mainstream consumer AR glasses hit the market but are limited in functionality",
+                    "probability": 0.65,
+                    "justification": "Major tech companies are working on AR, but technical challenges might limit initial functionality"
+                }
+            ]
+        },
+        {
+            "theme": "Job Market Evolution",
+            "summary": "Predictions about changes in traditional tech roles and employment conditions",
+            "predictions": [
+                {
+                    "prediction": "Traditional dev and design roles go to zero",
+                    "probability": 0.2,
+                    "justification": "While AI will transform these roles, complete elimination is unlikely. These roles will evolve rather than disappear, requiring new skills combinations"
+                },
+                {
+                    "prediction": "High-demand positions with high pay and perks won't return",
+                    "probability": 0.7,
+                    "justification": "Companies have adapted to leaner operations and maintained growth with smaller teams, creating a new normal in employment practices."
+                }
+            ]
+        },
+        {
+            "theme": "Public Health and Safety Concerns",
+            "summary": "Predictions related to threats to public health and safety, encompassing both disease outbreaks and violent incidents",
+            "predictions": [
+                {
+                    "prediction": "Infectious diseases in children will explode due to anti-vaxxers taking over health agencies",
+                    "probability": 0.25,
+                    "justification": "While vaccine hesitancy is a concern, complete takeover of major health agencies by anti-vaccine advocates is unlikely given institutional structures and scientific consensus. Local outbreaks more likely than widespread explosion."
+                },
+                {
+                    "prediction": "Mass shooting events are going to go up",
+                    "probability": 0.7,
+                    "justification": "Given current trends in the US, lack of significant gun control reform, and increasing social tensions, this unfortunately has a high probability"
+                }
+            ]
+        },
+        {
+            "theme": "Food Security & Safety",
+            "summary": "Concerns about food supply chain disruptions, safety issues, and increasing costs of groceries",
+            "predictions": [
+                {
+                    "prediction": "Food supply chain and supplement safety will significantly decrease",
+                    "probability": 0.35,
+                    "justification": "While regulatory challenges exist, established food safety systems and corporate interests in maintaining safety standards make dramatic deterioration unlikely. Incremental changes more probable than sudden decline."
+                },
+                {
+                    "prediction": "US grocery prices are higher than ever",
+                    "probability": 0.75,
+                    "justification": "Given persistent inflation trends and supply chain pressures, continued food price increases are likely"
+                }
+            ]
+        },
+        {
+            "theme": "Dietary Shifts & Animal Disease Impact",
+            "summary": "Changes in dietary preferences and concerns about animal-borne diseases leading to reduced meat consumption",
+            "predictions": [
+                {
+                    "prediction": "Many survivors will go Vegan",
+                    "probability": 0.2,
+                    "justification": "While animal disease concerns might influence dietary choices, such a massive shift seems unlikely"
+                },
+                {
+                    "prediction": "animal-transmitted diseases causing widespread reduction in meat consumption",
+                    "probability": 0.35,
+                    "justification": "While zoonotic diseases are a real concern, widespread behavior change in meat consumption would require severe outbreaks and significant media coverage. Historical patterns show consumers generally return to normal consumption after health scares."
+                },
+                {
+                    "prediction": "Bird flu will become zoonotic, but milder",
+                    "probability": 0.35,
+                    "justification": "While bird flu mutations are common, a significant zoonotic transition with reduced severity is less likely."
+                }
+            ]
+        },
+        {
+            "theme": "Blockchain Security & Crime",
+            "summary": "Concerns regarding large-scale cryptocurrency hacks and security breaches",
+            "predictions": [
+                {
+                    "prediction": "Epic coin hacks",
+                    "probability": 0.8,
+                    "justification": "Cryptocurrency security breaches are increasingly common, and as value increases, attacks become more sophisticated and frequent"
+                }
+            ]
+        },
+        {
+            "theme": "Crypto Market Evolution",
+            "summary": "Shift in cryptocurrency and Web3 applications towards practical financial use cases and tangible asset backing",
+            "predictions": [
+                {
+                    "prediction": "Web3/crypto pivots to real world assets and practical financial applications",
+                    "probability": 0.7,
+                    "justification": "After speculative bubble burst, practical applications are natural evolution"
+                }
+            ]
+        },
+        {
+            "theme": "Industrial and Manufacturing Challenges",
+            "summary": "Issues related to manufacturing processes and product specifications in aerospace and automotive industries",
+            "predictions": [
+                {
+                    "prediction": "Manufacturing issues with BE-4 engines and questions about New Glenn's 7m fairing will cause product market fit concerns",
+                    "probability": 0.7,
+                    "justification": "BE-4 engine has history of production challenges, and trend toward smaller satellites makes large fairing less attractive"
+                },
+                {
+                    "prediction": "Western car market falls into deep crisis with a big player failing",
+                    "probability": 0.5,
+                    "justification": "EV transition and economic pressures could cause significant disruption"
+                }
+            ]
+        },
+        {
+            "theme": "French Political Instability",
+            "summary": "Predictions related to major political upheaval and leadership changes in France, specifically focusing on potential government collapse and presidential impeachment",
+            "predictions": [
+                {
+                    "prediction": "There will be at least one government fall in France",
+                    "probability": 0.4,
+                    "justification": "While French politics is volatile, complete government collapse is relatively rare"
+                },
+                {
+                    "prediction": "The impeachment of Macron will happen",
+                    "probability": 0.15,
+                    "justification": "French constitutional structure makes presidential impeachment extremely difficult and rare"
+                }
+            ]
+        },
+        {
+            "theme": "Political Shifts and Elections",
+            "summary": "Predictions about election outcomes and changing political dynamics, particularly focusing on right-wing movements and Democratic Party challenges",
+            "predictions": [
+                {
+                    "prediction": "Elections will be unexpectedly won by anti-immigration, Russia-friendly candidates",
+                    "probability": 0.6,
+                    "justification": "Current political trends in various countries show growing support for such positions"
+                },
+                {
+                    "prediction": "The mainstream Democratic party will lose the 2024 Presidential election and respond by further triangulating toward conservatives",
+                    "probability": 0.4,
+                    "justification": "Historical patterns show Democrats have employed triangulation strategies before, but growing progressive influence within the party makes this less likely than in previous decades."
+                }
+            ]
+        },
+        {
+            "theme": "Political Leaders' Mental State",
+            "summary": "Observations about the psychological and cognitive conditions of political figures",
+            "predictions": [
+                {
+                    "prediction": "Trump begins to show serious signs of mental decline. Not tired like Biden, but overly paranoid and delusional like Putin",
+                    "probability": 0.55,
+                    "justification": "Given age and observed behavioral patterns, some cognitive changes are possible, though specific manifestation is speculative"
+                }
+            ]
+        },
+        {
+            "theme": "Entertainment Content Creation",
+            "summary": "AI's impact on the production and creation of films, music, and video content",
+            "predictions": [
+                {
+                    "prediction": "There will be a breakout indie film or music video produced from a skeleton crew relying heavily on generative AI video",
+                    "probability": 0.8,
+                    "justification": "Given rapid improvements in generative AI and decreasing costs, this is highly likely as creators experiment with the technology"
+                },
+                {
+                    "prediction": "First movies written post-ChatGPT with AI elements will hit theaters",
+                    "probability": 0.85,
+                    "justification": "Movie development cycles and industry adoption of AI tools make this highly likely"
+                },
+                {
+                    "prediction": "Fine-grained AI control for avatar/agent performance will be available to specialized visual graphics shops within 1-2 years",
+                    "probability": 0.7,
+                    "justification": "Current trajectory of AI development in visual effects and animation, combined with existing proofs of concept, makes this timeline realistic for professional applications."
+                }
+            ]
+        },
+        {
+            "theme": "Music Industry Disruption",
+            "summary": "AI's specific impact on music creation, distribution, and consumption on streaming platforms",
+            "predictions": [
+                {
+                    "prediction": "Generative AI music will replace regular music on major streaming platforms",
+                    "probability": 0.55,
+                    "justification": "AI music integration is already happening, but complete replacement is unlikely. More probable is a hybrid ecosystem where AI-generated and human-created music coexist."
+                },
+                {
+                    "prediction": "AI generated music will take significant market share on Spotify for background music",
+                    "probability": 0.7,
+                    "justification": "Already seeing early success with AI music, particularly in functional/background music categories"
+                }
+            ]
+        },
+        {
+            "theme": "Gaming and Interactive Media",
+            "summary": "AI's influence on gaming content and development",
+            "predictions": [
+                {
+                    "prediction": "AI-generated game content will emerge in indie games",
+                    "probability": 0.9,
+                    "justification": "Technology is already available, barriers to entry are low, and indie developers are more likely to experiment"
+                }
+            ]
+        },
+        {
+            "theme": "Legal and Authentication Challenges",
+            "summary": "Emerging legal and verification issues related to AI-generated content",
+            "predictions": [
+                {
+                    "prediction": "AI image/video detection will become almost impossible",
+                    "probability": 0.8,
+                    "justification": "Rapid advancement in generative AI and demonstrated improvements in quality support this trajectory"
+                },
+                {
+                    "prediction": "The first court case involving AI generated video will begin",
+                    "probability": 0.9,
+                    "justification": "Given the rapid rise of AI-generated content and existing legal challenges, this is almost certain"
+                }
+            ]
+        },
+        {
+            "theme": "LLM Technical Evolution",
+            "summary": "Predictions about how LLM architecture and implementation will evolve technically",
+            "predictions": [
+                {
+                    "prediction": "Split of LLMs into databases and reasoning components with pluggable information",
+                    "probability": 0.7,
+                    "justification": "This aligns with current trends in RAG and modular AI development; efficient resource use is a strong economic driver"
+                },
+                {
+                    "prediction": "Companies will develop many specialized LLMs linked via a router-like app that determines the best LLM to perform your request",
+                    "probability": 0.85,
+                    "justification": "This aligns with current industry trends of specialized AI models and the need for efficient task routing. Companies like Anthropic and OpenAI are already working on similar approaches."
+                },
+                {
+                    "prediction": "A hierarchy of LLMs communicating via shared latent space",
+                    "probability": 0.45,
+                    "justification": "This is technically feasible and aligns with industry trends, but complexity and implementation challenges make near-term deployment uncertain."
+                },
+                {
+                    "prediction": "New LLama will be released and remain the most impactful open model",
+                    "probability": 0.75,
+                    "justification": "Meta's commitment to open-source AI and Llama's current trajectory make this likely, though competition from other open models could increase"
+                }
+            ]
+        },
+        {
+            "theme": "LLM Limitations and Challenges",
+            "summary": "Predictions about problems and limitations that will emerge with LLM usage",
+            "predictions": [
+                {
+                    "prediction": "we'll probably see many issues provoked by buggy and faulty code made by LLMs",
+                    "probability": 0.85,
+                    "justification": "Given the rapid adoption of LLM-generated code and known limitations in code generation accuracy, issues are highly likely to emerge"
+                },
+                {
+                    "prediction": "LLMs for non-coding tasks will fizzle out as expensive talking fidget spinners",
+                    "probability": 0.2,
+                    "justification": "Current trends show increasing practical applications and adoption of LLMs across various sectors, making a complete fizzle unlikely"
+                },
+                {
+                    "prediction": "Consumer appetite for traditional LLM workflows (chatbots) will diminish",
+                    "probability": 0.8,
+                    "justification": "Current user frustration with chatbots and preference for traditional interfaces suggests this trend, while specific applications like search improvements may persist."
+                },
+                {
+                    "prediction": "LLMs will reach peak disillusionment",
+                    "probability": 0.6,
+                    "justification": "Following typical hype cycle patterns, after initial excitement, some disillusionment is likely, though complete abandonment is unlikely"
+                }
+            ]
+        },
+        {
+            "theme": "LLM Capabilities and Applications",
+            "summary": "Predictions about new achievements and applications of LLMs",
+            "predictions": [
+                {
+                    "prediction": "LLMs will be able to solve more complex tasks like the Putnam exam",
+                    "probability": 0.75,
+                    "justification": "Given the rapid pace of LLM advancement and specific focus on mathematical reasoning capabilities, this seems likely"
+                },
+                {
+                    "prediction": "Viral LLM-based game will be released in 2025",
+                    "probability": 0.8,
+                    "justification": "Given the rapid advancement of AI in gaming and increasing accessibility of LLM technology, this is highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "Broader Tech Landscape",
+            "summary": "Predictions about developments in the broader technology field beyond LLMs",
+            "predictions": [
+                {
+                    "prediction": "A new breakthrough will compete with LLMs for attention in either Quantum Computing, Energy, or BioTech",
+                    "probability": 0.6,
+                    "justification": "Active research in these fields, but breakthrough timing is uncertain and competition with LLMs requires significant impact"
+                }
+            ]
+        },
+        {
+            "theme": "China's AI Dominance",
+            "summary": "Predictions focusing on China's competitive advantages and geopolitical actions in the AI space",
+            "predictions": [
+                {
+                    "prediction": "China has more Chinese-language datasets that the West will find hard to get and train for effectively",
+                    "probability": 0.85,
+                    "justification": "Given China's large population, internet usage, and controlled digital ecosystem, they likely have vast Chinese language data advantages"
+                },
+                {
+                    "prediction": "China will outperform all other competitors in AI",
+                    "probability": 0.45,
+                    "justification": "While China has strong AI capabilities, competition from US and other countries remains strong"
+                },
+                {
+                    "prediction": "China will invade Taiwan",
+                    "probability": 0.15,
+                    "justification": "While tensions exist, the economic and military costs make this unlikely in the immediate future"
+                }
+            ]
+        },
+        {
+            "theme": "Global AI Competition",
+            "summary": "Observations about the international AI race and key players",
+            "predictions": [
+                {
+                    "prediction": "Russia will be unable to effectively participate in the AI race, leaving it to US and China",
+                    "probability": 0.85,
+                    "justification": "Brain drain, tech sanctions, and economic isolation severely limit Russia's ability to compete in advanced AI development"
+                }
+            ]
+        },
+        {
+            "theme": "AI Development Limitations",
+            "summary": "Skepticism about AI's future progress and continued investment",
+            "predictions": [
+                {
+                    "prediction": "AI peaks and cannot provide much more real benefit, but businesses continue investing due to sunk costs",
+                    "probability": 0.25,
+                    "justification": "Given the rapid pace of AI advancement and continuing breakthroughs, a peak in AI capabilities seems unlikely in the near term."
+                }
+            ]
+        },
+        {
+            "theme": "Labor Market Shifts",
+            "summary": "Changes in employment opportunities and job market dynamics, particularly in tech and trades sectors",
+            "predictions": [
+                {
+                    "prediction": "Trade jobs will start to become what code jobs were in the 00's -- very well paid",
+                    "probability": 0.7,
+                    "justification": "Growing demand for skilled trades and declining interest in these careers could drive up wages, though the comparison to 2000s programming salaries may be optimistic"
+                },
+                {
+                    "prediction": "The number of programming jobs on earth doubles",
+                    "probability": 0.3,
+                    "justification": "While tech sector growth continues, doubling of programming jobs in one year is highly ambitious given market conditions and AI developments"
+                },
+                {
+                    "prediction": "Tech hiring will continue to decrease and entry-level SWE jobs will become harder to find",
+                    "probability": 0.8,
+                    "justification": "Current industry trends, layoffs, and AI automation suggest this trend will continue"
+                }
+            ]
+        },
+        {
+            "theme": "Industry & Market Trends",
+            "summary": "Broader economic and industry developments affecting market stability and resource availability",
+            "predictions": [
+                {
+                    "prediction": "Tech industry continues to mature with stable growth and profits, but lack of rapid expansion will feel like decline",
+                    "probability": 0.8,
+                    "justification": "This aligns with current market trends and the natural maturation cycle of the tech industry"
+                },
+                {
+                    "prediction": "Market shortages will expand beyond maintenance products and certain foods",
+                    "probability": 0.3,
+                    "justification": "Supply chains have largely recovered from pandemic disruptions, though some sectoral issues persist"
+                }
+            ]
+        },
+        {
+            "theme": "OpenAI Product Developments",
+            "summary": "Predictions specifically related to OpenAI's future product launches and model developments",
+            "predictions": [
+                {
+                    "prediction": "OpenAI announces GPT-5 will be the last model of the GPT-n series",
+                    "probability": 0.15,
+                    "justification": "Very unlikely given the competitive AI landscape and OpenAI's business model; continuous improvement through iteration is crucial"
+                },
+                {
+                    "prediction": "Open AI will release a GPT phone with an AI personal assistant as the main UX feature",
+                    "probability": 0.3,
+                    "justification": "While the concept is innovative, OpenAI's current focus is on software/models. Hardware development requires significant infrastructure and experience they don't currently possess. More likely to partner with existing manufacturers if pursuing this direction."
+                },
+                {
+                    "prediction": "OpenAI will release desktop agent capabilities in January",
+                    "probability": 0.5,
+                    "justification": "While OpenAI is working on such capabilities, specific timing is uncertain and January release is speculative"
+                }
+            ]
+        },
+        {
+            "theme": "AI Hardware & Devices",
+            "summary": "Predictions about AI-integrated physical devices and hardware products",
+            "predictions": [
+                {
+                    "prediction": "GPT Phone (an AI phone) that's UX is all built around your phone becoming your personal AI assistant",
+                    "probability": 0.45,
+                    "justification": "While AI integration in phones will increase, a complete UX overhaul is less likely in 2024 due to technical and UX challenges"
+                },
+                {
+                    "prediction": "Major tech company will announce wearable AI device",
+                    "probability": 0.85,
+                    "justification": "Strong market signals, Apple's Vision Pro momentum, and natural evolution of AI interface make this highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "AI in Education",
+            "summary": "Predictions about the integration of AI in educational technology and learning platforms",
+            "predictions": [
+                {
+                    "prediction": "EdTech platforms will continue to innovate with more AI-powered personalization",
+                    "probability": 0.9,
+                    "justification": "Strong market demand, existing trend, and technological capability make this highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "Search Engine Market Dynamics",
+            "summary": "Predictions related to changes in search engine market share and Google's corporate structure",
+            "predictions": [
+                {
+                    "prediction": "ChatGPT Search will achieve high single-digit market share",
+                    "probability": 0.6,
+                    "justification": "Strong technology and user experience, but challenging to disrupt Google's dominance quickly"
+                },
+                {
+                    "prediction": "Google search market share will fall to 85% from 90%",
+                    "probability": 0.4,
+                    "justification": "While competition is increasing, Google's dominance is deeply entrenched"
+                },
+                {
+                    "prediction": "Google search will be split off",
+                    "probability": 0.25,
+                    "justification": "While antitrust pressure exists, forced separation of Google Search would face significant legal and technical challenges."
+                }
+            ]
+        },
+        {
+            "theme": "Operating System Market",
+            "summary": "Predictions about operating system market share changes",
+            "predictions": [
+                {
+                    "prediction": "Linux market share 6% by end of year",
+                    "probability": 0.3,
+                    "justification": "Current Linux desktop share is around 3%. While growing, doubling in a year is ambitious given historical growth rates."
+                }
+            ]
+        },
+        {
+            "theme": "Financial Market Crisis",
+            "summary": "Predictions related to severe financial market disruptions, particularly focusing on debt markets and market crashes requiring government intervention",
+            "predictions": [
+                {
+                    "prediction": "Debt crisis will trigger a bond interest/return death spiral",
+                    "probability": 0.4,
+                    "justification": "While debt levels are concerning, central banks and governments have tools to manage crisis, though risks are significant"
+                },
+                {
+                    "prediction": "A market crash occurs in the US and a government bailout is instituted",
+                    "probability": 0.35,
+                    "justification": "While economic indicators show some weakness, multiple safeguards are in place to prevent a severe crash requiring bailouts"
+                }
+            ]
+        },
+        {
+            "theme": "Global Economic Shifts",
+            "summary": "Changes in economic dynamics and manufacturing patterns across different regions",
+            "predictions": [
+                {
+                    "prediction": "EU economy slows",
+                    "probability": 0.75,
+                    "justification": "Current indicators, energy challenges, and global economic conditions suggest high likelihood of EU economic slowdown"
+                },
+                {
+                    "prediction": "Nearshoring trend accelerates with Mexico and Eastern Europe becoming major manufacturing hubs",
+                    "probability": 0.75,
+                    "justification": "Current geopolitical tensions and desire to reduce dependency on China support this trend"
+                }
+            ]
+        },
+        {
+            "theme": "Climate and Environmental Changes",
+            "summary": "Predictions related to global warming, temperature records, and climate-related technologies",
+            "predictions": [
+                {
+                    "prediction": "2025 will be the hottest year on record",
+                    "probability": 0.8,
+                    "justification": "Given current climate trends and El Ni\u00f1o patterns, this is highly plausible"
+                },
+                {
+                    "prediction": "2025 will be the hottest year on record, until 2026 tops it",
+                    "probability": 0.7,
+                    "justification": "Given the current climate trends and El Ni\u00f1o conditions, this prediction aligns with scientific projections and recent temperature records."
+                },
+                {
+                    "prediction": "Climate tech sees investment boom, especially in energy storage and carbon capture",
+                    "probability": 0.8,
+                    "justification": "Increasing extreme weather events and global commitments to carbon reduction make this likely"
+                },
+                {
+                    "prediction": "Carbon capture discussions won't lead to significant action in 2025",
+                    "probability": 0.85,
+                    "justification": "Past patterns show slow progress in implementing carbon capture solutions, particularly in short timeframes"
+                },
+                {
+                    "prediction": "Countries and corporations will focus more on green technologies",
+                    "probability": 0.85,
+                    "justification": "Global climate commitments, regulatory pressure, and market demands make this highly probable"
+                }
+            ]
+        },
+        {
+            "theme": "Political and Security Developments",
+            "summary": "Predictions concerning political leadership changes and security threats",
+            "predictions": [
+                {
+                    "prediction": "2025 will give Donald Trump a second act with support of both houses",
+                    "probability": 0.4,
+                    "justification": "While Trump has strong base support, winning presidency and both houses faces significant challenges given current political dynamics and polling"
+                },
+                {
+                    "prediction": "in 2025 we will see the first North American assassination by drone",
+                    "probability": 0.3,
+                    "justification": "While drone technology is advancing and becoming more accessible, successful high-profile assassinations require significant capabilities; security measures are also evolving to counter such threats"
+                }
+            ]
+        },
+        {
+            "theme": "Economic Trends",
+            "summary": "Predictions about fiscal and economic conditions",
+            "predictions": [
+                {
+                    "prediction": "US will reach fiscal dominance in the 2030s",
+                    "probability": 0.65,
+                    "justification": "Given current deficit trends and monetary policy, this is plausible but timeline is uncertain. Political and economic factors could accelerate or delay this."
+                }
+            ]
+        },
+        {
+            "theme": "Political Leadership and Health",
+            "summary": "Predictions related to political figures' health conditions and their impact on leadership roles",
+            "predictions": [
+                {
+                    "prediction": "Trump will suffer from health issues and step down for a period",
+                    "probability": 0.3,
+                    "justification": "While age-related health issues are possible, stepping down would be uncharacteristic given historical behavior"
+                }
+            ]
+        },
+        {
+            "theme": "Economic Policy Impact",
+            "summary": "Predictions about trade policies and their effects on specific economic sectors",
+            "predictions": [
+                {
+                    "prediction": "Trump starts a trade war that impacts a small but vital part of the economy that is already struggling like agriculture",
+                    "probability": 0.65,
+                    "justification": "Given Trump's previous protectionist policies and history of trade conflicts, combined with his current campaign rhetoric, this is fairly likely if he gains influence"
+                }
+            ]
+        },
+        {
+            "theme": "Cryptocurrency Market Dynamics",
+            "summary": "Predictions related to cryptocurrency price movements and market behavior influenced by various factors including regulation, fraud, and international capital flows",
+            "predictions": [
+                {
+                    "prediction": "Increased crypto grifting and rug-pulling due to laissez-faire regulatory environment",
+                    "probability": 0.75,
+                    "justification": "Historical patterns show that looser crypto regulation typically leads to increased fraudulent activity and scams"
+                },
+                {
+                    "prediction": "Crypto ends the year higher due to Russian and Chinese oligarchs using it for capital flight",
+                    "probability": 0.6,
+                    "justification": "While capital flight is likely, multiple factors affect crypto prices and regulatory crackdowns could limit this effect"
+                },
+                {
+                    "prediction": "Crypto correction on 21st Jan",
+                    "probability": 0.2,
+                    "justification": "Highly specific date predictions in crypto markets are typically unreliable due to market complexity and multiple influencing factors"
+                }
+            ]
+        },
+        {
+            "theme": "Global Economic Impact",
+            "summary": "Predictions focusing on national economic performance and currency valuations",
+            "predictions": [
+                {
+                    "prediction": "Russian economy flounders, ruble ends the year considerably lower against western currencies",
+                    "probability": 0.8,
+                    "justification": "Given continued sanctions, military expenditure, and isolation from global markets, ruble weakness is highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "Market & Financial Trends",
+            "summary": "Predictions related to stock market performance, trading patterns, and sector-specific movements",
+            "predictions": [
+                {
+                    "prediction": "Market continues to rally into first quarter then most equities slide and start trading sideways",
+                    "probability": 0.6,
+                    "justification": "Historical patterns and current economic indicators suggest potential early year momentum followed by consolidation"
+                },
+                {
+                    "prediction": "Stocks keep going up",
+                    "probability": 0.65,
+                    "justification": "Historical trend shows markets generally rise over time, but current economic uncertainties and high interest rates create some downside risk"
+                },
+                {
+                    "prediction": "there will be a bubble in defense stocks and a lot of defense IPOs",
+                    "probability": 0.4,
+                    "justification": "Defense sector growth is likely but a bubble requires specific market conditions; multiple IPOs possible but market conditions might not support high valuations"
+                }
+            ]
+        },
+        {
+            "theme": "Social & Security Concerns",
+            "summary": "Predictions related to personal safety and security threats, particularly targeting high-profile individuals",
+            "predictions": [
+                {
+                    "prediction": "There will be more attempts at CEO and billionaire murders",
+                    "probability": 0.25,
+                    "justification": "While wealth inequality and social tensions are high, significant increase in targeted violence against executives remains unlikely due to enhanced security measures."
+                }
+            ]
+        },
+        {
+            "theme": "Military Support Evolution",
+            "summary": "Predictions about changes in military equipment and support provided to Ukraine, particularly focusing on EU's potential role and capabilities",
+            "predictions": [
+                {
+                    "prediction": "EU can slowly shift to sending shells made in the EU, IRIS-T or NASMS air defence, Marders and CV90 IFVs, and Gripen fighters over time",
+                    "probability": 0.8,
+                    "justification": "This is highly likely given existing EU manufacturing capabilities and announced plans for military industrial expansion"
+                },
+                {
+                    "prediction": "If the US drops its support, the EU might pull the plug as well",
+                    "probability": 0.7,
+                    "justification": "Historical patterns of EU decision-making and current hesitation among some members suggest this is quite possible, though not certain"
+                }
+            ]
+        },
+        {
+            "theme": "Regulatory Controls",
+            "summary": "Increased legal and regulatory measures targeting social media usage, particularly focusing on protecting minors and implementing broader internet controls",
+            "predictions": [
+                {
+                    "prediction": "There will be more restrictions aimed at stopping kids using social media",
+                    "probability": 0.85,
+                    "justification": "Growing concerns about social media's impact on youth mental health and increasing regulatory pressure worldwide make this highly likely."
+                },
+                {
+                    "prediction": "More laws regulating internet and social media use will be implemented",
+                    "probability": 0.9,
+                    "justification": "Growing concerns about AI, privacy, and social media impact make increased regulation almost certain"
+                },
+                {
+                    "prediction": "Similar restrictions will be applied to adults (like porn verification laws)",
+                    "probability": 0.7,
+                    "justification": "Trend of increasing online regulation and identity verification is already visible in multiple countries."
+                }
+            ]
+        },
+        {
+            "theme": "Legal and Constitutional Impact",
+            "summary": "Legal challenges and consequences related to constitutional rights and platform operations",
+            "predictions": [
+                {
+                    "prediction": "First amendment rights will lead to legal consequences for social media platforms' algorithms in 2025",
+                    "probability": 0.7,
+                    "justification": "Given recent legal precedents and increasing scrutiny of social media algorithms, there's a good chance of successful class action lawsuits based on First Amendment implications of algorithmic content moderation"
+                }
+            ]
+        },
+        {
+            "theme": "Platform Evolution and Adaptation",
+            "summary": "Changes in how social media platforms operate, rebrand, and respond to public pressure",
+            "predictions": [
+                {
+                    "prediction": "Social media will be renamed/rebranded",
+                    "probability": 0.3,
+                    "justification": "While criticism is growing, established terminology is difficult to change industry-wide"
+                },
+                {
+                    "prediction": "Social media giants will invest more in public affairs and research to improve image",
+                    "probability": 0.85,
+                    "justification": "Highly likely given increasing regulatory pressure and public scrutiny"
+                },
+                {
+                    "prediction": "Social media will fragment more with people moving to unregulated sites",
+                    "probability": 0.8,
+                    "justification": "Historical patterns show users often migrate to alternative platforms when facing restrictions, as seen with messaging apps and content sharing."
+                }
+            ]
+        },
+        {
+            "theme": "Policy Outcomes",
+            "summary": "Predicted results and effectiveness of implemented social media restrictions",
+            "predictions": [
+                {
+                    "prediction": "Social media restrictions on kids will prove to be a wild success with significant benefits",
+                    "probability": 0.4,
+                    "justification": "While some benefits may occur, enforcement challenges and technological workarounds make complete success unlikely."
+                }
+            ]
+        },
+        {
+            "theme": "Solar Energy Growth",
+            "summary": "Predictions related to the expansion and adoption of solar energy in terms of market share, capacity, and overall energy usage",
+            "predictions": [
+                {
+                    "prediction": "Solar energy will account for around 8% (give or take 1%) of the world's energy usage",
+                    "probability": 0.65,
+                    "justification": "Given current growth trends in solar adoption and technological improvements, this is plausible but depends heavily on continued investment and policy support"
+                },
+                {
+                    "prediction": "Market share for solar continues to increase",
+                    "probability": 0.9,
+                    "justification": "Strong historical trend, decreasing costs, and global climate policies support continued solar adoption"
+                },
+                {
+                    "prediction": "There will be 1TW of deployed solar",
+                    "probability": 0.65,
+                    "justification": "Solar deployment is growing rapidly but reaching 1TW is ambitious and depends on continued policy support and cost reductions"
+                },
+                {
+                    "prediction": "Photovoltaic electricity generation will continue to follow the same exponential curve it has been in for the last ~70 years",
+                    "probability": 0.8,
+                    "justification": "Historical trend has been consistent, supported by improving technology and decreasing costs"
+                }
+            ]
+        },
+        {
+            "theme": "Grid Disruption",
+            "summary": "Predictions about potential threats and disruptions to electrical infrastructure",
+            "predictions": [
+                {
+                    "prediction": "A solar storm wipes out 20% of the US grid",
+                    "probability": 0.15,
+                    "justification": "While solar storms can impact power grids, a 20% disruption is severe. Modern grid systems have some protective measures, making this scale of impact relatively unlikely in a single event."
+                }
+            ]
+        },
+        {
+            "theme": "Bitcoin Price Peaks",
+            "summary": "Predictions focusing on Bitcoin reaching specific high price points",
+            "predictions": [
+                {
+                    "prediction": "Bitcoin will reach $200k+ and remain largely stable around that price at the end of 2025",
+                    "probability": 0.3,
+                    "justification": "Given crypto's volatility and current market conditions, this price target seems ambitious and stability at such a high level is even less likely"
+                },
+                {
+                    "prediction": "Bitcoin will reach 200k during a strong bull season",
+                    "probability": 0.4,
+                    "justification": "While Bitcoin has shown potential for significant growth, this price target is very ambitious and depends on multiple favorable market conditions"
+                },
+                {
+                    "prediction": "Bitcoin hits $150k at some point next year",
+                    "probability": 0.25,
+                    "justification": "While crypto markets are bullish, this represents a significant increase from current levels and depends on multiple favorable factors"
+                },
+                {
+                    "prediction": "BTC's market cap will reach between $120k-$130k next year with $100b in inflows",
+                    "probability": 0.15,
+                    "justification": "While Bitcoin has shown historical multiplier effects from inflows, the 5x-10x multiplier assumption is highly speculative. Current market conditions and regulatory environment make such dramatic price increases unlikely in the short term."
+                }
+            ]
+        },
+        {
+            "theme": "Price Decline Predictions",
+            "summary": "Predictions about significant price drops or corrections in Bitcoin's value",
+            "predictions": [
+                {
+                    "prediction": "Bitcoin will hit lows of 72k by end of year",
+                    "probability": 0.3,
+                    "justification": "Highly volatile prediction; crypto markets are unpredictable"
+                },
+                {
+                    "prediction": "Bitcoin will drop to 50k",
+                    "probability": 0.3,
+                    "justification": "Given current upward momentum and institutional adoption, a drop to 50k seems less likely"
+                },
+                {
+                    "prediction": "The bitcoin/cryptocurrency bubble will burst",
+                    "probability": 0.4,
+                    "justification": "Crypto markets are volatile but have shown resilience; major collapse is possible but not certain given institutional adoption"
+                },
+                {
+                    "prediction": "Bitcoin to $50k",
+                    "probability": 0.6,
+                    "justification": "Given historical volatility and current trends, this price target is achievable"
+                },
+                {
+                    "prediction": "Crypto has a major correction; bitcoin finishes the year well under $100k",
+                    "probability": 0.7,
+                    "justification": "Crypto markets are historically volatile and prone to corrections, particularly after significant rallies"
+                },
+                {
+                    "prediction": "Bitcoin will finish the year well under $100k",
+                    "probability": 0.7,
+                    "justification": "Given historical volatility patterns and current market conditions, a major correction is quite possible. Regulatory uncertainty and market maturity make sustained prices above $100k less likely."
+                },
+                {
+                    "prediction": "Bitcoin reaches it's high between Jun and Oct [...] Then falls around 70%",
+                    "probability": 0.5,
+                    "justification": "While historical patterns suggest cyclical behavior, market conditions have changed with institutional involvement and regulatory landscape; past patterns may not hold as strongly"
+                }
+            ]
+        },
+        {
+            "theme": "ETF and Market Impact",
+            "summary": "Predictions related to ETFs and external market factors affecting cryptocurrency",
+            "predictions": [
+                {
+                    "prediction": "Bitcoin/Crypto ETFs will cause drastic price increases even at current prices",
+                    "probability": 0.65,
+                    "justification": "While ETF approvals typically boost market accessibility and institutional investment, the impact may be already priced in. Historical patterns show crypto's volatility but regulatory clarity supports sustained growth."
+                },
+                {
+                    "prediction": "ETH/BTC will raise to at least 0.1",
+                    "probability": 0.4,
+                    "justification": "Cryptocurrency markets are highly volatile, but this represents a significant shift in relative values"
+                },
+                {
+                    "prediction": "AI bubble will pop within three years",
+                    "probability": 0.65,
+                    "justification": "Historical patterns of tech bubbles (like .com) support this, but AI has stronger fundamentals and real-world applications than previous bubbles"
+                },
+                {
+                    "prediction": "Trump will create a US coin that will cause Bitcoin to lose significant value",
+                    "probability": 0.05,
+                    "justification": "This is highly speculative and faces numerous regulatory, political, and technical hurdles. Government cryptocurrency initiatives typically face significant challenges and resistance."
+                }
+            ]
+        },
+        {
+            "theme": "Cyclical Patterns",
+            "summary": "Predictions focusing on specific timeframes and market cycles",
+            "predictions": [
+                {
+                    "prediction": "Bitcoin reaches its high between June and October, then falls around 70%",
+                    "probability": 0.5,
+                    "justification": "While there are historical patterns supporting this prediction, crypto markets are highly volatile and unpredictable, and past patterns don't guarantee future performance"
+                },
+                {
+                    "prediction": "Bitcoin value increases at least as much as in 2023",
+                    "probability": 0.5,
+                    "justification": "While crypto markets are cyclical, past performance doesn't guarantee future results"
+                }
+            ]
+        },
+        {
+            "theme": "Fundamental Changes",
+            "summary": "Predictions about changes in Bitcoin's core utility or functionality",
+            "predictions": [
+                {
+                    "prediction": "Bitcoin will increase in price but decrease in usability",
+                    "probability": 0.7,
+                    "justification": "Historical patterns and institutional adoption support price increase, while scaling issues persist"
+                }
+            ]
+        },
+        {
+            "theme": "AI Accessibility & Democratization",
+            "summary": "Predictions about how AI technology, particularly LLMs, will become more accessible and affordable for wider use",
+            "predictions": [
+                {
+                    "prediction": "LLMs and other generative AI tasks will become more accessible ($2.5k for a machine able to do fairly advanced training)",
+                    "probability": 0.85,
+                    "justification": "Hardware costs are consistently declining while efficiency improvements in AI training continue, making this very likely"
+                }
+            ]
+        },
+        {
+            "theme": "Professional Impact & Development",
+            "summary": "How AI will affect professional development and skill acquisition in the tech industry",
+            "predictions": [
+                {
+                    "prediction": "Developers who augment their tooling with LLMs will learn faster and become stronger generalists",
+                    "probability": 0.85,
+                    "justification": "Early evidence strongly supports this trend, with LLMs proving effective for learning and problem-solving in software development."
+                }
+            ]
+        },
+        {
+            "theme": "Social Resistance & Backlash",
+            "summary": "Predictions about negative reactions and resistance to AI technology adoption",
+            "predictions": [
+                {
+                    "prediction": "AI companies will face significant backlash and some people will actively avoid LLMs",
+                    "probability": 0.8,
+                    "justification": "Growing concerns about AI impact, privacy, and job displacement make this highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "Google's AI Leadership",
+            "summary": "Predictions centered around Google's future dominance in AI, including becoming the overall AI leader and surpassing current leaders",
+            "predictions": [
+                {
+                    "prediction": "Google becomes leader in AI",
+                    "probability": 0.4,
+                    "justification": "Strong capabilities but faces intense competition from Microsoft, OpenAI, and others"
+                },
+                {
+                    "prediction": "Google becomes the AI leader",
+                    "probability": 0.4,
+                    "justification": "While Google has strong capabilities, they face fierce competition from OpenAI, Anthropic, and others"
+                },
+                {
+                    "prediction": "Google will become better in AI than OpenAI",
+                    "probability": 0.4,
+                    "justification": "Similar to earlier Google AI leadership prediction, faces strong competition"
+                },
+                {
+                    "prediction": "Google will launch full AI search engine",
+                    "probability": 0.7,
+                    "justification": "Google already testing AI features in search; full integration likely given competitive pressure"
+                }
+            ]
+        },
+        {
+            "theme": "AI Leadership Competition",
+            "summary": "Contrasting predictions about which entities will lead or maintain dominance in AI development",
+            "predictions": [
+                {
+                    "prediction": "OpenAI and Anthropic will maintain their lead in proprietary general intelligence AI",
+                    "probability": 0.6,
+                    "justification": "Their current leadership position and significant funding provide advantages, but competition is intensifying and technological breakthroughs could shift the landscape."
+                },
+                {
+                    "prediction": "open source AI will meet or beat OpenAI due to scaling being only slightly harder",
+                    "probability": 0.6,
+                    "justification": "Open source AI models are rapidly improving and have strong community support. Meta and other players are investing heavily in open approaches, though catching up to OpenAI's lead remains challenging."
+                }
+            ]
+        },
+        {
+            "theme": "AI Creation & Generation",
+            "summary": "Predictions related to AI's capability to generate or create new content, including videos and programming languages",
+            "predictions": [
+                {
+                    "prediction": "'Make what I want' AI video generation will be available in 5-10+ years",
+                    "probability": 0.65,
+                    "justification": "Given the current pace of AI advancement and remaining technical challenges, this timeline for intuitive, high-quality video generation seems reasonable, though exact capabilities may vary."
+                },
+                {
+                    "prediction": "AI will create a new programming language that will take the world by storm",
+                    "probability": 0.2,
+                    "justification": "While AI can assist in programming language development, widespread adoption of a new language requires significant ecosystem development and community buy-in"
+                }
+            ]
+        },
+        {
+            "theme": "AI Integration & Ubiquity",
+            "summary": "Predictions about AI becoming widespread and integrated into everyday digital devices and tools",
+            "predictions": [
+                {
+                    "prediction": "Another AI company will release an AI-centric phone in 2025",
+                    "probability": 0.6,
+                    "justification": "More probable as several tech companies (Apple, Google, Samsung) already have phone hardware expertise and are investing heavily in AI. The timeline of 2025 allows reasonable development time."
+                },
+                {
+                    "prediction": "2025 will be year of AI and Tools with AI present on every digital thing",
+                    "probability": 0.85,
+                    "justification": "Given current AI integration trends and rapid development, widespread AI integration in digital services by 2025 is highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "AI Development Trends",
+            "summary": "Predictions about emerging trends and focus areas in AI development",
+            "predictions": [
+                {
+                    "prediction": "Program synthesis will become the trendword in AI for 2025",
+                    "probability": 0.55,
+                    "justification": "While program synthesis is promising, many competing technologies could become the next major trend. Prediction is speculative."
+                }
+            ]
+        },
+        {
+            "theme": "Economic Recession Timing",
+            "summary": "Predictions specifically focused on when a US recession will occur, with most predictions pointing to 2025",
+            "predictions": [
+                {
+                    "prediction": "US recession spring-summer 2025",
+                    "probability": 0.4,
+                    "justification": "Economic indicators suggest potential slowdown but timing is uncertain; 2026 might be more likely as mentioned in replies"
+                },
+                {
+                    "prediction": "US enters recession in Q1 2025",
+                    "probability": 0.55,
+                    "justification": "Historical correlation exists, but current economic indicators show resilience; timing prediction is very specific which reduces confidence"
+                },
+                {
+                    "prediction": "Recession in second half of the year",
+                    "probability": 0.5,
+                    "justification": "Mixed economic indicators and lagging effects of monetary tightening could lead to recession, but strong labor market provides resilience"
+                },
+                {
+                    "prediction": "The US won't enter recession when Trump becomes president",
+                    "probability": 0.65,
+                    "justification": "Economic indicators suggest resilience, though political transitions create uncertainty"
+                }
+            ]
+        },
+        {
+            "theme": "Debt Crisis",
+            "summary": "Predictions related to global debt maturity and refinancing challenges, particularly focusing on Covid-era debt",
+            "predictions": [
+                {
+                    "prediction": "$50 trillion in debt maturity must be rolled over mid 2025",
+                    "probability": 0.9,
+                    "justification": "This is based on existing Treasury debt schedules and known maturity dates, making it highly likely"
+                },
+                {
+                    "prediction": "Global debt refinancing crisis will emerge in 2026-2027 due to Covid-era debt maturity",
+                    "probability": 0.8,
+                    "justification": "High probability given the known debt levels, higher interest rates, and scheduled refinancing needs. Historical precedent supports this timeline."
+                }
+            ]
+        },
+        {
+            "theme": "AI Gaming and Entertainment",
+            "summary": "Advancements in AI technology leading to enhanced gaming experiences and more sophisticated AI opponents",
+            "predictions": [
+                {
+                    "prediction": "Games will have significantly improved AI that would challenge and delight humans",
+                    "probability": 0.75,
+                    "justification": "Given rapid advances in AI and gaming technology, plus existing demonstrations, this seems quite likely"
+                }
+            ]
+        },
+        {
+            "theme": "AI System Interaction",
+            "summary": "AI's growing capability to interact with and operate computer systems through reinforcement learning",
+            "predictions": [
+                {
+                    "prediction": "AI agents will get very good with computer use, largely enabled by RL fine tuning",
+                    "probability": 0.75,
+                    "justification": "Recent advances in RL and existing research programs by major AI companies support this trajectory"
+                }
+            ]
+        },
+        {
+            "theme": "AI and Autonomous Control Systems",
+            "summary": "Predictions centered around AI-powered autonomous systems being used for control and enforcement, often with concerning implications for safety and social control",
+            "predictions": [
+                {
+                    "prediction": "AI will help control invasive species using lessons from AI war machines",
+                    "probability": 0.3,
+                    "justification": "Complex ecological challenge, technology not yet mature enough for this application"
+                },
+                {
+                    "prediction": "Autonomous slaughterbots will become reality",
+                    "probability": 0.3,
+                    "justification": "While autonomous weapons development continues, full autonomy faces technical and ethical barriers"
+                },
+                {
+                    "prediction": "Robot police will be used to control masses in the near future",
+                    "probability": 0.4,
+                    "justification": "While automation in law enforcement is increasing, full robot police deployment faces significant technical, social, and ethical barriers"
+                }
+            ]
+        },
+        {
+            "theme": "Dopamine Management Impact",
+            "summary": "Predictions about how dopamine management medications will affect human behavior, cognition, and society",
+            "predictions": [
+                {
+                    "prediction": "Dopamine management medication will lead to a renaissance of human ingenuity and scientific discoveries",
+                    "probability": 0.3,
+                    "justification": "While dopamine-affecting medications exist, predicting a 'renaissance' is speculative. The connection between dopamine management and increased scientific output is not well established."
+                },
+                {
+                    "prediction": "Dopamine management medication will cause a significant crash for social media and gambling sites",
+                    "probability": 0.4,
+                    "justification": "There is some evidence from GLP-1 studies showing reduced addictive behaviors, but predicting a 'crash' of entire industries is a strong claim. Social media platforms can adapt their business models."
+                },
+                {
+                    "prediction": "People will become more robotic and less social due to dopamine management medication",
+                    "probability": 0.25,
+                    "justification": "This prediction lacks scientific basis. While medications might affect behavior patterns, characterizing it as making people 'more robotic' is overly simplistic and not supported by current medical evidence."
+                }
+            ]
+        },
+        {
+            "theme": "Attention and Cognitive Control",
+            "summary": "Observations about attention span and cognitive control in the US population",
+            "predictions": [
+                {
+                    "prediction": "The US population will continue to get worse at exhibiting attentional control",
+                    "probability": 0.85,
+                    "justification": "Increasing social media usage, shorter attention spans, and proliferation of quick-content platforms support this trend continuing"
+                }
+            ]
+        },
+        {
+            "theme": "Job Displacement",
+            "summary": "Predictions focusing on AI's direct impact on employment and job losses across various sectors",
+            "predictions": [
+                {
+                    "prediction": "All knowledge workers and creatives in the US are out of jobs in 2 years because of AI",
+                    "probability": 0.1,
+                    "justification": "This timeline is extremely aggressive and unlikely. While AI will impact these roles, complete displacement in 2 years is unrealistic given technological and adoption limitations"
+                },
+                {
+                    "prediction": "AI will wipe out 80% of jobs",
+                    "probability": 0.15,
+                    "justification": "This is highly exaggerated. While AI will transform many jobs, complete elimination of 80% of jobs is unlikely given historical patterns of technological disruption where new jobs emerge as others evolve"
+                },
+                {
+                    "prediction": "AI will reach another milestone in tasks and quality, further reducing labor demand",
+                    "probability": 0.85,
+                    "justification": "Consistent with current AI development pace and investment trends"
+                },
+                {
+                    "prediction": "Entire jobs will disappear to AI, particularly affecting workers aged 50+",
+                    "probability": 0.65,
+                    "justification": "AI automation is already impacting various sectors, and older workers often face greater challenges in career transitions."
+                }
+            ]
+        },
+        {
+            "theme": "Regulatory Response",
+            "summary": "Predictions related to government and policy responses to AI advancement",
+            "predictions": [
+                {
+                    "prediction": "Countries will pass legislation to protect human workers from AI replacement",
+                    "probability": 0.85,
+                    "justification": "Given growing concerns about AI's impact on employment, regulatory response is highly likely"
+                },
+                {
+                    "prediction": "Countries will regulate AI-generated content more heavily",
+                    "probability": 0.85,
+                    "justification": "Growing concerns about misinformation and existing regulatory discussions make this highly probable"
+                },
+                {
+                    "prediction": "AI regulation becomes fragmented with contradictory rules between EU, China, and US",
+                    "probability": 0.9,
+                    "justification": "Already seeing divergent regulatory approaches; EU's AI Act vs. different US state laws vs. China's approach makes this highly probable"
+                },
+                {
+                    "prediction": "Governments will introduce stricter AI regulations",
+                    "probability": 0.9,
+                    "justification": "Growing concerns about AI risks and recent regulatory initiatives in EU and other regions make this very likely"
+                }
+            ]
+        },
+        {
+            "theme": "Apple Hardware Accessories & Extensions",
+            "summary": "Physical products and accessories that extend Apple's hardware ecosystem beyond traditional devices",
+            "predictions": [
+                {
+                    "prediction": "Apple will sell a backpack (With some sort of technology included)",
+                    "probability": 0.3,
+                    "justification": "While Apple has been expanding into wearables, a backpack is outside their typical product range, though not impossible given their push into lifestyle products"
+                },
+                {
+                    "prediction": "Apple will release iPad-on-motorized-pole",
+                    "probability": 0.3,
+                    "justification": "This seems more speculative and doesn't align with Apple's typical product categories, though not impossible given their home automation interests."
+                }
+            ]
+        },
+        {
+            "theme": "Inflation Dynamics",
+            "summary": "Predictions about the direction and behavior of US inflation rates, showing contrasting views from acceleration to softening",
+            "predictions": [
+                {
+                    "prediction": "US accelerated inflation",
+                    "probability": 0.65,
+                    "justification": "Given current economic indicators and monetary policy, accelerated inflation is possible but not as high as 90% given Fed's commitment to controlling inflation"
+                },
+                {
+                    "prediction": "Inflation does not rise meaningfully in US",
+                    "probability": 0.6,
+                    "justification": "Fed policies and current trends suggest inflation might remain relatively controlled"
+                },
+                {
+                    "prediction": "Inflation softens as shelter slides",
+                    "probability": 0.7,
+                    "justification": "Housing market cooling and Fed's monetary policy likely to continue impacting shelter costs"
+                }
+            ]
+        },
+        {
+            "theme": "Interest Rate Outlook",
+            "summary": "Expectations regarding US interest rate movements and their relationship to inflation",
+            "predictions": [
+                {
+                    "prediction": "US interest rates won't go more than half a point lower due to inflation pressures",
+                    "probability": 0.7,
+                    "justification": "Sticky inflation and strong labor market support this, though economic uncertainties remain"
+                }
+            ]
+        },
+        {
+            "theme": "Microsoft-OpenAI Strategic Partnership",
+            "summary": "Predictions focusing on the deepening business relationship and potential integration between Microsoft and OpenAI, including both corporate ownership and product development",
+            "predictions": [
+                {
+                    "prediction": "OpenAI and Microsoft will create a branded GPT Phone or operating system",
+                    "probability": 0.45,
+                    "justification": "Partnership exists and Microsoft has OS experience, but entering mobile OS market is extremely challenging given Android/iOS dominance. An OS layer or deep AI integration more likely than full OS."
+                },
+                {
+                    "prediction": "OpenAI will be acquired by Microsoft by end of 2025",
+                    "probability": 0.25,
+                    "justification": "While OpenAI faces financial challenges and has strong Microsoft ties, complete acquisition faces regulatory and organizational hurdles"
+                }
+            ]
+        },
+        {
+            "theme": "Climate Change Acceleration",
+            "summary": "Statements focused on the continuing and accelerating trends of global climate change, warming, and environmental destabilization",
+            "predictions": [
+                {
+                    "prediction": "Global climate will continue its accelerated destabilization trend",
+                    "probability": 0.85,
+                    "justification": "Consistent with current climate data and scientific consensus on climate change acceleration"
+                },
+                {
+                    "prediction": "Climate change will continue accelerating",
+                    "probability": 0.85,
+                    "justification": "Current trends and insufficient global action suggest continued acceleration of climate change impacts"
+                },
+                {
+                    "prediction": "Global warming will trend towards warmer than ever before",
+                    "probability": 0.95,
+                    "justification": "Strong scientific consensus and current emissions trajectories make this highly likely"
+                }
+            ]
+        },
+        {
+            "theme": "War Conclusion with Territorial Concessions",
+            "summary": "Predictions focusing on the war ending with Ukraine losing or ceding territory to Russia, often due to reduced Western support",
+            "predictions": [
+                {
+                    "prediction": "Russia-Ukraine war comes to a peaceful end with Ukraine losing some territory",
+                    "probability": 0.6,
+                    "justification": "Combination of war fatigue, potential reduction in Western support, and political changes make compromise more likely"
+                },
+                {
+                    "prediction": "USA stops supporting Ukraine war efforts and Ukraine is forced to cede large portions of land to Russia",
+                    "probability": 0.45,
+                    "justification": "Political shifts in the US could affect support, but complete withdrawal and Ukrainian capitulation faces significant domestic and international resistance"
+                },
+                {
+                    "prediction": "Ukraine will lose the war against Russia without American weapons support",
+                    "probability": 0.75,
+                    "justification": "US weapons systems have been crucial for Ukraine's defense capabilities, and EU alone cannot match this military support"
+                },
+                {
+                    "prediction": "Russia pulls out of Ukraine but keeps occupied territories",
+                    "probability": 0.35,
+                    "justification": "While some form of settlement is possible, Russia's complete withdrawal seems unlikely given their strategic objectives and current military situation."
+                }
+            ]
+        },
+        {
+            "theme": "General War Resolution",
+            "summary": "Predictions about the war ending without specific details about territorial changes",
+            "predictions": [
+                {
+                    "prediction": "Ukraine War ends",
+                    "probability": 0.3,
+                    "justification": "Given current military situation and political positions, a complete end to the conflict seems unlikely in the short term"
+                },
+                {
+                    "prediction": "Cease-fire in Ukraine and border negotiation talks",
+                    "probability": 0.4,
+                    "justification": "Current military and political positions suggest low willingness for compromise from either side"
+                },
+                {
+                    "prediction": "Russia - Ukraine war comes to an end",
+                    "probability": 0.3,
+                    "justification": "While negotiations may occur, entrenched positions and strategic objectives make a complete resolution unlikely in the near term"
+                },
+                {
+                    "prediction": "End of Ukraine war",
+                    "probability": 0.3,
+                    "justification": "Given current military situations and both sides' positions, a near-term end seems unlikely"
+                },
+                {
+                    "prediction": "Russia and Ukraine mutually give up territory with Russia turning on internal patriots",
+                    "probability": 0.35,
+                    "justification": "While some form of territorial compromise might emerge, the specific scenario described is complex and depends on many uncertain factors"
+                }
+            ]
+        },
+        {
+            "theme": "Frozen Conflict Scenario",
+            "summary": "Predictions suggesting the conflict will reach a stalemate or temporary pause along current lines",
+            "predictions": [
+                {
+                    "prediction": "The war will stop on the current lines, and Russia will use the 4 years of respite to re-arm and take the rest of Ukraine in 2028",
+                    "probability": 0.4,
+                    "justification": "While Russia might try to rearm, this specific timeline and outcome is speculative and faces many uncertainties including Western response and Ukraine's defensive capabilities"
+                },
+                {
+                    "prediction": "Ukraine conflict will become frozen along current conflict lines",
+                    "probability": 0.75,
+                    "justification": "Historical patterns of similar conflicts, current military situations, and diplomatic stalemates suggest a frozen conflict is a likely outcome. Neither side shows signs of achieving decisive victory."
+                },
+                {
+                    "prediction": "Ukraine won't ever cede these territories [...] this war will continue for decades",
+                    "probability": 0.6,
+                    "justification": "While Ukraine's resolve is strong, 'decades' of conflict is less likely due to economic/military sustainability factors and potential diplomatic solutions, though some form of frozen conflict is possible"
+                }
+            ]
+        },
+        {
+            "theme": "Western Support Dynamics",
+            "summary": "Predictions focused on changes in Western support and its implications",
+            "predictions": [
+                {
+                    "prediction": "Ukraine fighting continues with funding/arms sources shifting more to European sources",
+                    "probability": 0.75,
+                    "justification": "Given current political dynamics in the US and increased European commitment to Ukraine's defense"
+                },
+                {
+                    "prediction": "US abandonment of Ukraine spurs EU to make major change in military posture",
+                    "probability": 0.7,
+                    "justification": "European countries already increasing defense spending; US policy shift would accelerate this"
+                }
+            ]
+        },
+        {
+            "theme": "Hardware Market Dynamics",
+            "summary": "Predictions related to changes and shifts in computer hardware markets, specifically focusing on GPU and memory segments",
+            "predictions": [
+                {
+                    "prediction": "128GB becomes the new GPU gaming/LLM market segment target",
+                    "probability": 0.75,
+                    "justification": "Follows clear trend in GPU memory requirements for modern AI and gaming applications"
+                },
+                {
+                    "prediction": "GPU shortage eases but new bottleneck in networking equipment emerges",
+                    "probability": 0.7,
+                    "justification": "New manufacturing capacity coming online, but demand shifting to other components"
+                }
+            ]
+        },
+        {
+            "theme": "Company Performance",
+            "summary": "Specific predictions about technology companies' product successes and market achievements",
+            "predictions": [
+                {
+                    "prediction": "Intel will start showing progress. The Battlemage GPU is a huge success",
+                    "probability": 0.6,
+                    "justification": "Intel has been making significant investments and showing technological progress, though success of Battlemage specifically is less certain"
+                }
+            ]
+        },
+        {
+            "theme": "Geopolitical Conflicts",
+            "summary": "Predictions related to international military conflicts and power dynamics between major nations",
+            "predictions": [
+                {
+                    "prediction": "The US creates a pretext to go to war with Iran and is defeated",
+                    "probability": 0.15,
+                    "justification": "Direct military conflict with Iran is unlikely given current geopolitical focus on Ukraine and Taiwan, and US military superiority makes defeat highly improbable"
+                },
+                {
+                    "prediction": "The US and China are both profiting from this war",
+                    "probability": 0.7,
+                    "justification": "US benefits from weapons sales and geopolitical influence, China from discounted Russian resources and increased leverage over Russia"
+                }
+            ]
+        },
+        {
+            "theme": "Social Media Platform Dynamics",
+            "summary": "Predictions about TikTok's future in terms of both regulatory challenges and market performance",
+            "predictions": [
+                {
+                    "prediction": "Tiktok will be banned in usa",
+                    "probability": 0.4,
+                    "justification": "Increasing bipartisan support for restrictions, but complete ban faces legal and practical challenges"
+                },
+                {
+                    "prediction": "TikTok will continue to dominate engagement among social media platforms",
+                    "probability": 0.85,
+                    "justification": "TikTok's current trajectory and user engagement metrics suggest continued dominance, barring regulatory intervention"
+                }
+            ]
+        },
+        {
+            "theme": "Pandemic Health Crisis",
+            "summary": "Predictions related to the H5N1/Bird flu pandemic and its direct impact on human mortality",
+            "predictions": [
+                {
+                    "prediction": "Global population will reduce by 20+% due to H5N1 pandemic",
+                    "probability": 0.01,
+                    "justification": "Extremely unlikely scenario given current medical capabilities and pandemic preparedness"
+                },
+                {
+                    "prediction": "H1N5 (Bird flu) will cause millions of deaths in human populations",
+                    "probability": 0.3,
+                    "justification": "While highly pathogenic avian influenza poses a serious threat and has pandemic potential, modern surveillance systems and rapid response capabilities make a massive death toll less likely. However, the risk remains significant given the virus's ability to mutate."
+                }
+            ]
+        },
+        {
+            "theme": "Economic and Social Impact",
+            "summary": "Predictions about economic conditions and societal effects, particularly in the United States",
+            "predictions": [
+                {
+                    "prediction": "A significant portion of the US population will lose nearly everything",
+                    "probability": 0.4,
+                    "justification": "While economic challenges exist, complete financial collapse for a large portion of population is extreme"
+                },
+                {
+                    "prediction": "US economy keeps growing and outperforming rest of world",
+                    "probability": 0.7,
+                    "justification": "US has shown resilience and strong economic indicators, though faces challenges from high interest rates and global competition"
+                }
+            ]
+        },
+        {
+            "theme": "Entertainment Industry Financial Risk",
+            "summary": "Predictions about high-budget entertainment projects facing financial challenges and scaled-back production plans",
+            "predictions": [
+                {
+                    "prediction": "Large movies and video games that cost above $200 million to make will flop around 75% or more",
+                    "probability": 0.4,
+                    "justification": "While production costs are rising and some high-budget projects have failed, a 75% flop rate is extremely high. Major studios still have successful track records with big-budget productions."
+                },
+                {
+                    "prediction": "Disney will make huge reductions in plans for Star Wars and Marvel projects",
+                    "probability": 0.7,
+                    "justification": "Current market saturation, declining box office returns, and Disney's stated focus on profitability support this"
+                }
+            ]
+        },
+        {
+            "theme": "Supply Chain & Consumer Impacts",
+            "summary": "Predictions related to product availability and pricing changes affecting consumer goods and technology components",
+            "predictions": [
+                {
+                    "prediction": "There will be actual shortages of basic products",
+                    "probability": 0.3,
+                    "justification": "While supply chain issues persist, complete shortages of basic products are less likely in developed economies due to diverse supply chains and alternative sources."
+                },
+                {
+                    "prediction": "The cost of PC components in the US are going to sky rocket higher than we've ever seen with tariffs coming",
+                    "probability": 0.7,
+                    "justification": "Given announced tariff policies, trade tensions, and historical impact of similar measures on electronics, significant price increases are likely, though market adaptations might moderate extreme effects."
+                }
+            ]
+        },
+        {
+            "theme": "Nuclear Warfare",
+            "summary": "Predictions related to the use of nuclear weapons in military conflicts, specifically focusing on potential nuclear attacks and nuclear-enabled military technology",
+            "predictions": [
+                {
+                    "prediction": "Nuclear drones will emerge",
+                    "probability": 0.2,
+                    "justification": "Significant technical and regulatory barriers make this unlikely in near term"
+                },
+                {
+                    "prediction": "A nuclear bomb will be exploded in combat",
+                    "probability": 0.15,
+                    "justification": "While global tensions exist, the use of nuclear weapons remains highly unlikely due to MAD doctrine and international deterrence"
+                },
+                {
+                    "prediction": "Putin will launch a nuclear strike against Ukraine",
+                    "probability": 0.05,
+                    "justification": "Extremely low probability due to international consequences and MAD doctrine, despite ongoing conflict."
+                }
+            ]
+        },
+        {
+            "theme": "Tesla & Stock Market",
+            "summary": "Predictions related to Tesla's stock performance and market impact",
+            "predictions": [
+                {
+                    "prediction": "Tesla is going to $1K without any fundamentals",
+                    "probability": 0.35,
+                    "justification": "Tesla stock is volatile and has shown capability for large moves, but reaching $1K without fundamental support faces significant headwinds"
+                },
+                {
+                    "prediction": "Musk will leave the Trump team before the end of the year, causing Tesla to crash and market crash",
+                    "probability": 0.4,
+                    "justification": "While Musk is unpredictable, direct causation between these events is less certain, and markets have multiple drivers"
+                }
+            ]
+        },
+        {
+            "theme": "Musk's Product Announcements",
+            "summary": "Predictions about Elon Musk's product-related statements and launches",
+            "predictions": [
+                {
+                    "prediction": "Musk will say full self driving is coming by the end of the year",
+                    "probability": 0.95,
+                    "justification": "Consistent with historical pattern of Musk making similar promises annually about FSD timeline"
+                },
+                {
+                    "prediction": "Musk will call it x-coin",
+                    "probability": 0.3,
+                    "justification": "While Musk has shown interest in cryptocurrency and has branded various products with 'X', there's no strong indication he's planning to launch a new cryptocurrency."
+                }
+            ]
+        },
+        {
+            "theme": "Trump-Musk Relationship",
+            "summary": "Predictions about the professional relationship between Trump and Musk",
+            "predictions": [
+                {
+                    "prediction": "Trump will fire Musk in Q1",
+                    "probability": 0.1,
+                    "justification": "This prediction lacks context and Trump has no direct authority over Musk, making this highly unlikely"
+                },
+                {
+                    "prediction": "Musk will leave the Trump team before the end of the year, causing Tesla to crash and market crash",
+                    "probability": 0.4,
+                    "justification": "While Musk is unpredictable, direct causation between these events is less certain, and markets have multiple drivers"
+                }
+            ]
+        },
+        {
+            "theme": "Electric Vehicle Market Evolution",
+            "summary": "Predictions focused on the future state of electric vehicle adoption and market dynamics in the US and developed markets, particularly highlighting standardization impacts and regional market shifts",
+            "predictions": [
+                {
+                    "prediction": "US will hit inflection point with electric cars due to NCAS standardization",
+                    "probability": 0.75,
+                    "justification": "Government initiatives, industry standardization, and market trends all support this transition"
+                },
+                {
+                    "prediction": "Electric vehicles will represent over 50% of sales in developed markets",
+                    "probability": 0.4,
+                    "justification": "While EV adoption is growing rapidly, reaching 50% in all developed markets within one year seems ambitious given current infrastructure and cost barriers"
+                },
+                {
+                    "prediction": "US-made EVs will retreat to North American markets only",
+                    "probability": 0.6,
+                    "justification": "Given increasing domestic content requirements in the US and cost pressures, this is reasonably likely. The IRA requirements and rising manufacturing costs in the US make this scenario plausible."
+                }
+            ]
+        }
+    ],
+    "model": "claude-3-5-sonnet-20241022"
+}

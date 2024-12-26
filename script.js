@@ -5,7 +5,6 @@ let $tabContent;  // Global reference to tab content
 // Function to load theme predictions
 function loadThemePredictions(theme, $targetContent) {
   $targetContent.empty();
-  console.log("Loading Theme:", theme);
   const $themeContainer = $('<div class="container"></div>');
 
   // Add probability filters at the top
@@ -109,7 +108,6 @@ function loadThemePredictions(theme, $targetContent) {
 // Function to setup the theme UI
 function setupThemeUI(sortedThemes, model) {
   $tabContent.empty();
-  console.log("Loading Theme UI:", sortedThemes);
 
   const $tabContentContainer = $('<div class="columns is-variable is-1 is-gapless" style="min-height: 500px"></div>').appendTo($tabContent);
   const $sidebar = $('<aside class="column is-one-quarter menu theme-sidebar is-scrollable" style="height: 500px; overflow-y: auto"></aside>').appendTo($tabContentContainer);
@@ -143,7 +141,6 @@ function setupThemeUI(sortedThemes, model) {
       ' <span class="tag is-light is-small ml-2">' + predictionCount + ' Predictions</span></a>'
     ).on('click', function (event) {
       event.preventDefault();
-      console.log(`Loading predictions for theme: ${theme.theme}`);
       $themeMenu.find('li').removeClass('is-active');
       $(this).addClass('is-active');
 
@@ -163,10 +160,6 @@ function setupThemeUI(sortedThemes, model) {
 
 // Function to load data for a specific model
 function loadData(file, $tab, tabIndex) {
-  console.log("=== Starting to load data ===");
-  console.log("Loading file:", file);
-  console.log("Tab index:", tabIndex);
-
   // Show loading state
   $tabContent.html(`
     <div class="has-text-centered p-6">
@@ -179,8 +172,6 @@ function loadData(file, $tab, tabIndex) {
 
   fetch(file)
     .then(response => {
-      console.log("Response status:", response.status);
-      console.log("Response headers:", response.headers);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -189,7 +180,6 @@ function loadData(file, $tab, tabIndex) {
     .then(text => {
       try {
         const data = JSON.parse(text);
-        console.log("Successfully parsed JSON data:", data);
         // Store the model data
         modelsData[data.model] = data;
         return data;
@@ -223,7 +213,6 @@ function processModelData(data, $tab) {
 
   if (!data.themes) {
     console.error("No themes found in data");
-    console.log("Available data structure:", JSON.stringify(data, null, 2));
     $tabContent.html('<div class="notification is-danger">Invalid data format: missing categorized_predictions</div>');
     return;
   }
@@ -261,9 +250,7 @@ function processModelData(data, $tab) {
 }
 
 $(window).on('load', () => {
-  console.log("Window loaded");
   if (loaded) {
-    console.log("already loaded, exiting")
     return;
   }
   loaded = true;
@@ -281,10 +268,10 @@ $(window).on('load', () => {
   // Function to fetch all files from the output directory and filter for .json files
   function fetchFilesFromDirectory() {
     return [
-      "/outputs/predictions_data_gemini-1.5-pro.json",
-      "/outputs/predictions_data_claude-3.5-sonnet-20241022.json",
-      "/outputs/predictions_data_gpt-4-turbo-preview.json",
-      "/outputs/predictions_data_gpt-4o.json",
+      "outputs/predictions_data_gemini-1.5-pro.json",
+      "outputs/predictions_data_claude-3.5-sonnet-20241022.json",
+      "outputs/predictions_data_gpt-4-turbo-preview.json",
+      "outputs/predictions_data_gpt-4o.json",
     ];
   }
 
@@ -302,7 +289,6 @@ $(window).on('load', () => {
           const data = JSON.parse(text);
           const modelName = data.model;
 
-          console.log("Creating tab for file:", file, "Model Name:", modelName);
 
           const $tab = $('<li>').append(
             $('<a>').html(`
@@ -324,7 +310,6 @@ $(window).on('load', () => {
 
   // Get files from output directory
   const filesFromOutput = fetchFilesFromDirectory();
-  console.log("Files found:", filesFromOutput)
 
   // Preload all model data
   const preloadPromises = filesFromOutput.map(file => {

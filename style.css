@@ -404,6 +404,30 @@ body {
   color: white;
 }
 
+/* Statistics styles */
+.probability-bar {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 8px;
+  color: white;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  white-space: nowrap;
+  min-width: 60px;
+}
+
+.probability-bars .column {
+  padding: 0.2rem;
+}
+
+.statistics-container .box {
+  transition: transform 0.2s ease;
+}
+
+.statistics-container .box:hover {
+  transform: translateY(-2px);
+}
+
 /* Card styles */
 .card {
   transition: all 0.2s ease;

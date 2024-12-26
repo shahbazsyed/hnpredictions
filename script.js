@@ -117,14 +117,9 @@ function setupThemeUI(sortedThemes, model) {
     <div class="box mb-5">
       <h2 class="title is-4">
         <span class="icon-text">
-          <span><i class="fas fa-robot"></i>&nbsp;${model}</span>
+          <span><i class="fas fa-map"></i>&nbsp;Themes</span>
         </span>
       </h2>
-      <div class="legend flex is-flex-wrap-wrap is-justify-content-space-between">
-        <span class="legend-item"><i class="fas fa-square has-text-success mr-2"></i>Likely</span>
-        <span class="legend-item"><i class="fas fa-square has-text-info ml-2 mr-2"></i>Maybe</span>
-        <span class="legend-item"><i class="fas fa-square has-text-danger ml-2 mr-2"></i>Unlikely</span>
-      </div>
     </div>
   `);
 

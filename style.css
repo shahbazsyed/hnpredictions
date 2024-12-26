@@ -115,6 +115,10 @@ h6 {
 /* Content styles */
 .content {
   padding: 1.5rem;
+  background-color: #edede9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Notification styles */
@@ -390,14 +394,13 @@ h6 {
 .probability-filters {
   position: sticky;
   top: 0;
-  background: #f5f5f5;
   z-index: 10;
   padding: 0.5rem;
 }
 
 .probability-filters .button {
   margin: 0 2px;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: opacity 0.2s ease;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
